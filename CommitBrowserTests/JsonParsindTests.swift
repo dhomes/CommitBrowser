@@ -35,6 +35,26 @@ class JsonParsingTests: XCTestCase {
             print(user)
             
         } catch {
+            print(error)
+            XCTFail(error.localizedDescription)
+        }
+    }
+    
+    func testUserSummaryDecoding() throws {
+        guard let url = Bundle.init(for: type(of: self)).url(forResource: "UserSummary", withExtension: "json") else {
+            XCTFail("SampleJson not found")
+            return
+        }
+
+        do {
+            let data = try Data(contentsOf: url)
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = .iso8601
+            let user = try decoder.decode(GitHubUserSummary.self, from: data)
+            print(user)
+            
+        } catch {
+            print(error)
             XCTFail(error.localizedDescription)
         }
     }
