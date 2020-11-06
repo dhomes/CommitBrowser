@@ -9,7 +9,9 @@ import UIKit
 
 class CommitsRootCoordinator : Coordinator, ControllerContainingCoordinator {
     
-    var viewController: UIViewController!
+    var viewController: UIViewController! {
+        navigationController
+    }
     
     private var navigationController = UINavigationController()
     
