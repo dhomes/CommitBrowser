@@ -1,0 +1,25 @@
+{
+  "author": {
+    "name": "David Homes",
+    "email": "dhomes@gmail.com",
+    "date": "2020-11-06T18:01:21Z"
+  },
+  "committer": {
+    "name": "David Homes",
+    "email": "dhomes@gmail.com",
+    "date": "2020-11-06T18:01:21Z"
+  },
+  "message": "Added User protocol / GitHubUser / Decodable test",
+  "tree": {
+    "sha": "2ba0295b914c122600f021b88d7844acd5bd6ee2",
+    "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/2ba0295b914c122600f021b88d7844acd5bd6ee2"
+  },
+  "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/de30f436d708aaaca6c373b141120bb1f4ff6d84",
+  "comment_count": 0,
+  "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null
+  }
+}

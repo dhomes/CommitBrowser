@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct GitHubUser : User {
+struct CommitUser : User {
     
     private(set) var login: String
     private(set) var id: Int

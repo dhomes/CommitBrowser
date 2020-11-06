@@ -23,9 +23,9 @@ extension UserSummary {
     var description: String {
         """
         UserSummary:
-        name: \(name)
-        email: \(email)
-        date: \(date.description(with: Locale.current))
+         name: \(name)
+         email: \(email)
+         date: \(date.description(with: Locale.current))
         """
     }
 }

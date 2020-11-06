@@ -29,15 +29,15 @@ extension User {
     var description : String {
         """
         USER
-        login: (\(login))
-        id: \(id)
-        nodeId: \(nodeId)
-        avatarUrl: \(avatarUrl?.absoluteString ?? "nil")
-        url: \(url.absoluteString)
-        htmlUrl: \(htmlUrl.absoluteString)
-        reposUrl: \(reposUrl.absoluteString)
-        user type: \(type)
-        isSiteAdmin: \(isSiteAdmin)
+         login: (\(login))
+         id: \(id)
+         nodeId: \(nodeId)
+         avatarUrl: \(avatarUrl?.absoluteString ?? "nil")
+         url: \(url.absoluteString)
+         htmlUrl: \(htmlUrl.absoluteString)
+         reposUrl: \(reposUrl.absoluteString)
+         user type: \(type)
+         isSiteAdmin: \(isSiteAdmin)
         """
     }
 }

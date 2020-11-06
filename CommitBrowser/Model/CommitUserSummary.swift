@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct GitHubUserSummary : UserSummary {
+struct CommitUserSummary : UserSummary {
     private(set) var name: String
     private(set) var date: Date
     private(set) var email: String
