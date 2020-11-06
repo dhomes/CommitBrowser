@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B96806E72555BA1000809CD7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96806E62555BA1000809CD7 /* User.swift */; };
+		B96806EF2555BEB600809CD7 /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96806EE2555BEB600809CD7 /* GitHubUser.swift */; };
+		B96806F42555BF2400809CD7 /* JsonParsindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96806F32555BF2400809CD7 /* JsonParsindTests.swift */; };
+		B96806F92555BF7200809CD7 /* SampleUserJson.json in Resources */ = {isa = PBXBuildFile; fileRef = B96806F82555BF7200809CD7 /* SampleUserJson.json */; };
 		B97A0D7F2555631900840157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0D7E2555631900840157 /* AppDelegate.swift */; };
 		B97A0D812555631900840157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0D802555631900840157 /* SceneDelegate.swift */; };
 		B97A0D882555631B00840157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D872555631B00840157 /* Assets.xcassets */; };
 		B97A0D8B2555631B00840157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D892555631B00840157 /* LaunchScreen.storyboard */; };
-		B97A0D962555631B00840157 /* CommitBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0D952555631B00840157 /* CommitBrowserTests.swift */; };
 		B97A0DA12555631B00840157 /* CommitBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0DA02555631B00840157 /* CommitBrowserUITests.swift */; };
 		B97A0DB62555638E00840157 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = B97A0DB52555638E00840157 /* Nuke */; };
 		B97A0DBC255563A400840157 /* Just in Frameworks */ = {isa = PBXBuildFile; productRef = B97A0DBB255563A400840157 /* Just */; };
@@ -44,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B96806E62555BA1000809CD7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B96806EE2555BEB600809CD7 /* GitHubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
+		B96806F32555BF2400809CD7 /* JsonParsindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsindTests.swift; sourceTree = "<group>"; };
+		B96806F82555BF7200809CD7 /* SampleUserJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleUserJson.json; sourceTree = "<group>"; };
 		B97A0D7B2555631900840157 /* CommitBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommitBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97A0D7E2555631900840157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B97A0D802555631900840157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +58,6 @@
 		B97A0D8A2555631B00840157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B97A0D8C2555631B00840157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97A0D912555631B00840157 /* CommitBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommitBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B97A0D952555631B00840157 /* CommitBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitBrowserTests.swift; sourceTree = "<group>"; };
 		B97A0D972555631B00840157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97A0D9C2555631B00840157 /* CommitBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommitBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97A0DA02555631B00840157 /* CommitBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitBrowserUITests.swift; sourceTree = "<group>"; };
@@ -94,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B96806E52555B9E500809CD7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B96806E62555BA1000809CD7 /* User.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		B97A0D722555631900840157 = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +137,6 @@
 				B97A0DD22555651F00840157 /* Helpers */,
 				B97A0DCC2555648600840157 /* Model */,
 				B97A0DD32555654100840157 /* Networking */,
-				B97A0DD1255564BC00840157 /* Protocols */,
 				B97A0DCA2555642700840157 /* Resources */,
 				B97A0DCB2555646600840157 /* Scenes */,
 				B97A0DCD255564A600840157 /* Views */,
@@ -134,8 +147,9 @@
 		B97A0D942555631B00840157 /* CommitBrowserTests */ = {
 			isa = PBXGroup;
 			children = (
-				B97A0D952555631B00840157 /* CommitBrowserTests.swift */,
 				B97A0D972555631B00840157 /* Info.plist */,
+				B96806F32555BF2400809CD7 /* JsonParsindTests.swift */,
+				B96806F82555BF7200809CD7 /* SampleUserJson.json */,
 			);
 			path = CommitBrowserTests;
 			sourceTree = "<group>";
@@ -179,7 +193,9 @@
 		B97A0DCC2555648600840157 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B96806E52555B9E500809CD7 /* Protocols */,
 				B97A0DEA2555693C00840157 /* Coordinator.swift */,
+				B96806EE2555BEB600809CD7 /* GitHubUser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,17 +207,10 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		B97A0DD1255564BC00840157 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				B97A0DD42555660B00840157 /* StoryboardInstantiable.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		B97A0DD22555651F00840157 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				B97A0DD42555660B00840157 /* StoryboardInstantiable.swift */,
 				B97A0DDC255566AE00840157 /* Storyboards.swift */,
 			);
 			path = Helpers;
@@ -349,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96806F92555BF7200809CD7 /* SampleUserJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +379,9 @@
 				B97A0DFB25556EB100840157 /* CommitsRootCoordinator.swift in Sources */,
 				B97A0DDD255566AE00840157 /* Storyboards.swift in Sources */,
 				B97A0D7F2555631900840157 /* AppDelegate.swift in Sources */,
+				B96806EF2555BEB600809CD7 /* GitHubUser.swift in Sources */,
 				B97A0DF625556E6900840157 /* CommitsRootController.swift in Sources */,
+				B96806E72555BA1000809CD7 /* User.swift in Sources */,
 				B97A0DEB2555693C00840157 /* Coordinator.swift in Sources */,
 				B97A0DD52555660B00840157 /* StoryboardInstantiable.swift in Sources */,
 				B97A0D812555631900840157 /* SceneDelegate.swift in Sources */,
@@ -380,7 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97A0D962555631B00840157 /* CommitBrowserTests.swift in Sources */,
+				B96806F42555BF2400809CD7 /* JsonParsindTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

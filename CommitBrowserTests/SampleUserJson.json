@@ -1,0 +1,20 @@
+{
+        "login": "dhomes",
+        "id": 152622,
+        "node_id": "MDQ6VXNlcjE1MjYyMg==",
+        "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dhomes",
+        "html_url": "https://github.com/dhomes",
+        "followers_url": "https://api.github.com/users/dhomes/followers",
+        "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+        "organizations_url": "https://api.github.com/users/dhomes/orgs",
+        "repos_url": "https://api.github.com/users/dhomes/repos",
+        "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dhomes/received_events",
+        "type": "User",
+        "site_admin": false
+}
