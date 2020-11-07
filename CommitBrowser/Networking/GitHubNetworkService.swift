@@ -9,9 +9,9 @@ import Foundation
 import Just
 
 struct GitHubNetworkService : NetworkService {
-    typealias Commit = GitHubCommit
     
     func getCommits(with request : APIRequest, completion : ((Result<[Commit],Error>) -> ())?) {
+        
         Just.request(request.method,
                      url: request.endpoint,
                      headers: request.headers,
@@ -22,16 +22,14 @@ struct GitHubNetworkService : NetworkService {
                             completion?(.failure(result.error!))
                             return
                         }
-
                         do {
                             guard let data = result.content else {
                                 completion?(.failure(NetworkError.noContent))
                                 return
                             }
-                            let decoder = JSONDecoder()
-                            decoder.dateDecodingStrategy = .iso8601
-                            let responseObject = try decoder.decode([Commit].self, from: data)
-                            completion?(.success(responseObject))
+                            let json = try JSON(data: data)
+                            let commits = json.arrayValue.compactMap { GitHubCommit(json: $0)}
+                            completion?(.success(commits))
                         } catch {
                             completion?(.failure(error))
                         }

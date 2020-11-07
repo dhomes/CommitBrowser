@@ -8,7 +8,6 @@
 import Foundation
 
 protocol NetworkService {
-    associatedtype Commit
     func getCommits(with request : APIRequest, completion : ((Result<[Commit],Error>) -> ())?)
 }
 

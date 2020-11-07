@@ -10,19 +10,7 @@ import XCTest
 
 class NetworkServiceTests: XCTestCase {
 
-    class NetworkProvider<T : NetworkService> {
-        private var service : T
-        private var request : APIRequest
-        init(service : T, request : APIRequest) {
-            self.service = service
-            self.request = request
-        }
-        func fetchCommits(_ completion : ((Result<[T.Commit],Error>) -> ())?) {
-            service.getCommits(with: request) { result in
-                completion?(result)
-            }
-        }
-    }
+
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -34,12 +22,12 @@ class NetworkServiceTests: XCTestCase {
     }
 
     func testNetworkService() throws {
-        typealias Commit = GitHubCommit
         let expectation = XCTestExpectation(description: "Testing Service")
         expectation.expectedFulfillmentCount = 1
-        let request = GitHubRequest.getCommits("dhomes", "commitbrowser", 25)
-        let provider = NetworkProvider(service: GitHubNetworkService(), request: request)
-        provider.fetchCommits { result in
+        let request = GitHubRequest.getCommits("dhomes", "commitbrowser", 25, nil)
+        let network = GitHubNetworkService()
+        
+        network.getCommits(with: request) { result in
             switch result {
             case .failure(let error):
                 print(error)
