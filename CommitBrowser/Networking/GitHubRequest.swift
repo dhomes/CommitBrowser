@@ -7,37 +7,29 @@
 
 import Foundation
 import Just
- 
 
 enum GitHubRequest : APIRequest {
     
-    case getCommits(_ owner : String, _ repositoryName : String, _ pagesize : Int, _ below : Date?)
+    case getCommits(_ repository : Repository, _ query : Query)
 
     var path: String {
         switch self {
-        case .getCommits(let owner, let repository, _, _):
-            return "/repos/\(owner)/\(repository)/commits"
+        case .getCommits(let repository,_):
+            return "/repos/\(repository.owner)/\(repository.repositoryName)/commits"
         }
     }
     
     var method: HTTPMethod {
         switch self {
-            case .getCommits(_,_,_,_):
+            case .getCommits(_,_):
                 return .get
         }
     }
-
-    var headers: [String : String] {
+    
+    var queryParameters : [String : Any] {
         switch self {
-        case .getCommits(_, _, let pageSize, let below):
-            var headers = defaultHeaders
-            headers["per_page"] = "\(pageSize)"
-            if let date = below {
-                let formatter = ISO8601DateFormatter()
-                let dateString = formatter.string(from: date)
-                headers["until"] = dateString
-            }
-            return headers
+            case .getCommits(_, let query):
+                return query.parameters
         }
     }
 }

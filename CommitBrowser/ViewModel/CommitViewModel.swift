@@ -21,15 +21,14 @@ enum FetchDirection {
 class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {
     
     var commits : Observable<[Commit]> = Observable([Commit]())
-    var networkService: T
-    private var owner : String
-    private var repo : String
+    private var networkService: T
+    private let repository : Repository
     private var pageSize : Int
+    var hasMore = true
     
-    init(_ networkService : T, owner: String, repo: String, pageSize : Int = 25) {
+    init(_ networkService : T, repository : Repository, pageSize : Int = 25) {
         self.networkService = networkService
-        self.owner = owner
-        self.repo = repo
+        self.repository = repository
         self.pageSize = pageSize
     }
     var hasCommits : Bool {
@@ -49,20 +48,33 @@ class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {
     
     func fetch(from direction : FetchDirection, completion : ((Error?) -> ())?) {
         let date : Date? = direction == .top ? nil : commits.value.map { $0.date }.min()?.addingTimeInterval(-0.01)
-        let request = GitHubRequest.getCommits(owner, repo, pageSize, date)
-        networkService.getCommits(with: request) { result in
+        hasMore = direction == .top ? true : hasMore
+        
+        let pageSize = self.pageSize
+        let query = Query(pageSize: pageSize, below: date)
+        let request = GitHubRequest.getCommits(repository, query)
+        let currentCommits = self.commits.value
+        
+        if !hasMore {
+            completion?(nil)
+            return
+        }
+        
+        networkService.getCommits(with: request) { [weak self] result in
             let mainQueue = DispatchQueue.main
             switch result {
             case .failure(let error):
                 mainQueue.async {
                     completion?(error)
                 }
-            case .success(_):
-                //commits.forEach { CommitView($0)}
-                return
+            case .success(let commits):
+                if direction == .top {
+                    self?.commits.value = commits
+                } else {
+                    self?.hasMore = commits.count == query.pageSize
+                    self?.commits.value = currentCommits + commits
+                }
             }
         }
-        
-        
     }
 }

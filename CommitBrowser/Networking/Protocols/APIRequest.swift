@@ -12,10 +12,10 @@ protocol APIRequest {
     var baseURL: URL { get }
     var path: String { get }
     var method : HTTPMethod { get }
-    var defaultHeaders : [String : String] { get }
     var headers : [String : String] { get }
     var endpoint : URL { get }
     var requestBody : Data? { get }
+    var queryParameters : [String : Any] { get }
 }
 
 extension APIRequest {
@@ -25,7 +25,7 @@ extension APIRequest {
         }
         return url
     }
-    var defaultHeaders : [String : String] {
+    var headers : [String : String] {
          ["Content-Type" : "application/json"]
     }
     var endpoint : URL {
@@ -33,5 +33,9 @@ extension APIRequest {
     }
     var requestBody : Data? {
         nil
+    }
+    
+    var queryParameters : [String : Any]? {
+        [String:Any]()
     }
 }

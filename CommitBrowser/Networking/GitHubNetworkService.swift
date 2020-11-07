@@ -12,8 +12,10 @@ struct GitHubNetworkService : NetworkService {
     
     func getCommits(with request : APIRequest, completion : ((Result<[Commit],Error>) -> ())?) {
         
+
         Just.request(request.method,
                      url: request.endpoint,
+                     params: request.queryParameters,
                      headers: request.headers,
                      timeout: 5,
                      requestBody: request.requestBody,

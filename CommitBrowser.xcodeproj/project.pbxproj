@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B937EB24255700FC00DC6948 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB23255700FC00DC6948 /* Repository.swift */; };
+		B937EB292557011800DC6948 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB282557011800DC6948 /* Query.swift */; };
 		B96806F42555BF2400809CD7 /* JsonParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96806F32555BF2400809CD7 /* JsonParsingTests.swift */; };
 		B96807512555DE5B00809CD7 /* CommitData.json in Resources */ = {isa = PBXBuildFile; fileRef = B968074E2555DE5B00809CD7 /* CommitData.json */; };
 		B96807522555DE5B00809CD7 /* UserSummary.json in Resources */ = {isa = PBXBuildFile; fileRef = B968074F2555DE5B00809CD7 /* UserSummary.json */; };
@@ -59,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B937EB23255700FC00DC6948 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		B937EB282557011800DC6948 /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
 		B96806F32555BF2400809CD7 /* JsonParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsingTests.swift; sourceTree = "<group>"; };
 		B968074E2555DE5B00809CD7 /* CommitData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CommitData.json; sourceTree = "<group>"; };
 		B968074F2555DE5B00809CD7 /* UserSummary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserSummary.json; sourceTree = "<group>"; };
@@ -164,8 +168,8 @@
 		B96807C6255697D800809CD7 /* GitHub */ = {
 			isa = PBXGroup;
 			children = (
-				B9D518A92556BC0200600665 /* GitHubCommit.swift */,
 				B96806E52555B9E500809CD7 /* Protocols */,
+				B9D518A92556BC0200600665 /* GitHubCommit.swift */,
 			);
 			path = GitHub;
 			sourceTree = "<group>";
@@ -284,10 +288,12 @@
 		B97A0DD32555654100840157 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				B96807B925561E7B00809CD7 /* Protocols */,
 				B9680796255604B100809CD7 /* GitHubNetworkService.swift */,
 				B96807892555FEBD00809CD7 /* GitHubRequest.swift */,
 				B96807A1255618F600809CD7 /* NetworkError.swift */,
-				B96807B925561E7B00809CD7 /* Protocols */,
+				B937EB282557011800DC6948 /* Query.swift */,
+				B937EB23255700FC00DC6948 /* Repository.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -455,6 +461,7 @@
 				B968078F2556047500809CD7 /* APIRequest.swift in Sources */,
 				B9680797255604B100809CD7 /* GitHubNetworkService.swift in Sources */,
 				B97A0DFB25556EB100840157 /* CommitsRootCoordinator.swift in Sources */,
+				B937EB292557011800DC6948 /* Query.swift in Sources */,
 				B96807A2255618F600809CD7 /* NetworkError.swift in Sources */,
 				B97A0DDD255566AE00840157 /* Storyboards.swift in Sources */,
 				B97A0D7F2555631900840157 /* AppDelegate.swift in Sources */,
@@ -464,6 +471,7 @@
 				B97A0DD52555660B00840157 /* StoryboardInstantiable.swift in Sources */,
 				B9D518A52556BBCA00600665 /* SwiftyJSON.swift in Sources */,
 				B97A0D812555631900840157 /* SceneDelegate.swift in Sources */,
+				B937EB24255700FC00DC6948 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
