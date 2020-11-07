@@ -17,6 +17,10 @@ class CommitsRootCoordinator : Coordinator, ControllerContainingCoordinator {
     
     override func start() {
         let commitsRootController = CommitsRootController.instantiate()
+        let service = GitHubNetworkService()
+        let repository = Repository.defaultRepository
+        let model = GitHubCommitsRootViewModel(service, repository: repository)
+        commitsRootController.model = model
         navigationController.pushViewController(commitsRootController, animated: false)
     }
 

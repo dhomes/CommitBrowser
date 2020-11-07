@@ -38,6 +38,7 @@
 		B97A0DFB25556EB100840157 /* CommitsRootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0DFA25556EB100840157 /* CommitsRootCoordinator.swift */; };
 		B97A0E04255573F900840157 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B97A0E02255573F900840157 /* README.md */; };
 		B97A0E05255573F900840157 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B97A0E03255573F900840157 /* LICENSE */; };
+		B984C4E52557486C00EF4C4F /* UIVIewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B984C4E42557486C00EF4C4F /* UIVIewController+Extensions.swift */; };
 		B9CF88AC255710E5009416B8 /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF88AA255710E5009416B8 /* EmptyCell.swift */; };
 		B9CF88AD255710E5009416B8 /* EmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CF88AB255710E5009416B8 /* EmptyCell.xib */; };
 		B9CF88B3255712FC009416B8 /* CommitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF88B1255712FC009416B8 /* CommitCell.swift */; };
@@ -101,6 +102,7 @@
 		B97A0DFA25556EB100840157 /* CommitsRootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsRootCoordinator.swift; sourceTree = "<group>"; };
 		B97A0E02255573F900840157 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B97A0E03255573F900840157 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B984C4E42557486C00EF4C4F /* UIVIewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Extensions.swift"; sourceTree = "<group>"; };
 		B9CF88AA255710E5009416B8 /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
 		B9CF88AB255710E5009416B8 /* EmptyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCell.xib; sourceTree = "<group>"; };
 		B9CF88B1255712FC009416B8 /* CommitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitCell.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		B97A0D7D2555631900840157 /* CommitBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				B984C4E32557485500EF4C4F /* Extensions */,
 				B97A0DC62555641100840157 /* Application */,
 				B97A0DD22555651F00840157 /* Helpers */,
 				B97A0DCC2555648600840157 /* Model */,
@@ -321,6 +324,14 @@
 				B97A0DF525556E6900840157 /* CommitsRootController.swift */,
 			);
 			path = CommitsRoot;
+			sourceTree = "<group>";
+		};
+		B984C4E32557485500EF4C4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B984C4E42557486C00EF4C4F /* UIVIewController+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,6 +485,7 @@
 				B9D518AA2556BC0200600665 /* GitHubCommit.swift in Sources */,
 				B9F63F0325569D1D00919035 /* CommitViewModel.swift in Sources */,
 				B9D518972556B07D00600665 /* Commit.swift in Sources */,
+				B984C4E52557486C00EF4C4F /* UIVIewController+Extensions.swift in Sources */,
 				B937EB4225570C9400DC6948 /* ReusableNib.swift in Sources */,
 				B96807AA2556193400809CD7 /* NetworkService.swift in Sources */,
 				B968078F2556047500809CD7 /* APIRequest.swift in Sources */,

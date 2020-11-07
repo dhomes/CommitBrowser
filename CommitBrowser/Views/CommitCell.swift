@@ -8,7 +8,7 @@
 import UIKit
 import Nuke
 
-class CommitCell: UITableViewCell {
+class CommitCell: UITableViewCell, ReusableNib {
 
     @IBOutlet weak var commitHash: UILabel!
     @IBOutlet weak var commitMessage: UILabel!

@@ -9,7 +9,8 @@ import Foundation
 
 protocol CommitsRootViewModel {
     var commits : Observable<[Commit]> { get }
-    var numberOfCommits : Int { get }
+    var numberOfRows : Int { get }
+    var hasCommits : Bool { get }
     func commitAt(_ index : IndexPath) -> Commit?
     func fetch(from direction : FetchDirection, completion : ((Error?) -> ())?)
 }
@@ -35,7 +36,7 @@ class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {
         commits.value.count > 0
     }
     
-    var numberOfCommits: Int {
+    var numberOfRows : Int {
         max(1, commits.value.count)
     }
 
@@ -73,6 +74,9 @@ class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {
                 } else {
                     self?.hasMore = commits.count == query.pageSize
                     self?.commits.value = currentCommits + commits
+                }
+                mainQueue.async {
+                    completion?(nil)
                 }
             }
         }
