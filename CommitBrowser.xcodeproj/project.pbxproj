@@ -211,8 +211,8 @@
 		B97A0D7D2555631900840157 /* CommitBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				B984C4E32557485500EF4C4F /* Extensions */,
 				B97A0DC62555641100840157 /* Application */,
+				B984C4E32557485500EF4C4F /* Extensions */,
 				B97A0DD22555651F00840157 /* Helpers */,
 				B97A0DCC2555648600840157 /* Model */,
 				B97A0DD32555654100840157 /* Networking */,

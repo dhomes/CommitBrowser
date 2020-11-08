@@ -14,6 +14,7 @@ protocol CommitsRootViewModel {
     func commitAt(_ index : IndexPath) -> Commit?
     func fetch(from direction : FetchDirection, completion : ((Error?) -> ())?)
     var isFetching : Bool { get }
+ 
 }
 
 enum FetchDirection {
