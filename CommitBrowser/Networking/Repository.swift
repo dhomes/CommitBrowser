@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Repository type. Needed by APIRequest
 struct Repository {
     var owner : String
     var repositoryName : String

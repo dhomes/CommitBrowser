@@ -6,10 +6,13 @@
 //
 
 import UIKit
+
+/// Helper protocol for registering / dequeing / instantiating UITableViewCells & UIViews
 protocol ReusableNib : UIView {
     static var identifier : String { get }
     static var nib : UINib { get }
 }
+
 
 extension ReusableNib {
     static var identifier : String {

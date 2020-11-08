@@ -8,6 +8,8 @@
 import Foundation
 import Just
 
+
+/// Enumerator with needed APIRequests for Application
 enum GitHubRequest : APIRequest {
     
     case getCommits(_ repository : Repository, _ query : Query)

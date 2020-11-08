@@ -8,8 +8,14 @@
 import Foundation
 import Just
 
+/// NetworkService conforming type.
 struct GitHubNetworkService : NetworkService {
     
+    /// Get Commit-conforming collection of objects
+    /// - Parameters:
+    ///   - request: the API conforming object
+    ///   - completion: typed result with .success [Commit]
+    /// - Returns: array of Commit  (via completion block)
     func getCommits(with request : APIRequest, completion : ((Result<[Commit],Error>) -> ())?) {
         
         execute(request: request) { result in
@@ -23,6 +29,11 @@ struct GitHubNetworkService : NetworkService {
         }
     }
     
+    /// Executes a network request to retrieve a JSON object
+    /// - Parameters:
+    ///   - request: the request to execute
+    ///   - completion: completion object with .success -> JSON
+    /// - Returns: JSON via completion block, or errors
     private func execute(request : APIRequest, completion : ((Result<JSON,Error>) -> ())?) {
     
         Just.request(request.method,

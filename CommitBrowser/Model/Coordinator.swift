@@ -7,10 +7,14 @@
 
 import UIKit
 
+/// Protocol for Coordinators that must expose a view Coordinator
 protocol ControllerContainingCoordinator : Coordinator {
     var viewController : UIViewController! { get }
 }
 
+
+/// Base coordinator object
+/// Description: - needs to inherit from NSObject to become delegate of UINavigationController, if needed
 class Coordinator : NSObject {
     
     var didFinish : ((Coordinator?) -> Void)?

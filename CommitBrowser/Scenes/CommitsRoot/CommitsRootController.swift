@@ -51,9 +51,11 @@ extension CommitsRootController {
 }
 
 extension CommitsRootController {
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         model.numberOfRows
     }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let commit = model.commitAt(indexPath) else {
             let cell = deque(EmptyCell.self) as! EmptyCell
@@ -64,15 +66,18 @@ extension CommitsRootController {
         commitCell.setCommit(commit)
         return commitCell
     }
+    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if !model.hasCommits {
             return tableView.frame.height - tableView.safeAreaInsets.top - tableView.safeAreaInsets.bottom
         }
         return UITableView.automaticDimension
     }
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
+    
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if indexPath.row == model.numberOfRows - 1 && model.hasCommits {
             model.fetch(from: .bottom) { [weak self] error in

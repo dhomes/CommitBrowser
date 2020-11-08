@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Coordinator setting the CommitsRootsController & ViewModel 
 class CommitsRootCoordinator : Coordinator, ControllerContainingCoordinator {
     
     var viewController: UIViewController! {

@@ -19,7 +19,6 @@ class CommitCell: UITableViewCell, ReusableNib {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -33,6 +32,7 @@ class CommitCell: UITableViewCell, ReusableNib {
         dateFormatter.dateFormat = "MM/dd/yy hh:mm a v"
         return dateFormatter
     }()
+    
     func setCommit(_ commit : Commit) {
         commitHash.text = commit.hash
         commitMessage.text = commit.message

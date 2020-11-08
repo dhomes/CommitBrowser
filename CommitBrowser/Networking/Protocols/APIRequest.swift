@@ -8,6 +8,8 @@
 import Foundation
 import Just
 
+
+/// Protocol for all API Request that may be needed
 protocol APIRequest {
     var baseURL: URL { get }
     var path: String { get }

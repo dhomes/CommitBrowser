@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// ViewModel protocol for CommitsRoot
 protocol CommitsRootViewModel {
     var commits : Observable<[Commit]> { get }
     var numberOfRows : Int { get }
@@ -17,10 +18,12 @@ protocol CommitsRootViewModel {
  
 }
 
+/// Enumerator for fetch direction
 enum FetchDirection {
     case top, bottom
 }
 
+/// Concrete class used by the app
 class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {
     
     var commits : Observable<[Commit]> = Observable([Commit]())

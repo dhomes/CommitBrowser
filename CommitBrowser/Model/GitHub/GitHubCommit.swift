@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Commit conforming type
 struct GitHubCommit : Commit {
 
     private(set) var authorName: String
@@ -15,7 +16,8 @@ struct GitHubCommit : Commit {
     private(set) var message: String
     private(set) var authorImageUrl: URL?
     private(set) var date: Date
-
+    
+    /// JSON parsing keys
     private struct Keys {
         static let sha = "sha"
         static let commit = "commit"
@@ -27,6 +29,8 @@ struct GitHubCommit : Commit {
         static let avatarUrl = "avatar_url"
     }
     
+    /// Failable initializer from JSON
+    /// - Parameter json: single commit JSON
     init?(json : JSON) {
         let commit = json[Keys.commit]
         let author = commit[Keys.author]

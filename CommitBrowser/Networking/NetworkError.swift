@@ -6,6 +6,9 @@
 //
 
 import Foundation
+
+
+/// Network error type
 enum NetworkError : Error, LocalizedError {
     case noContent
     case invalidCode(_ code : Int?, message : String?)

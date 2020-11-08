@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+/// Commit protocol representing the needed Commit info for the app-domain
 protocol Commit : CustomStringConvertible {
     var authorName : String { get }
     var email : String { get }

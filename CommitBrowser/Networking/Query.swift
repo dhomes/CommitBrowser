@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Query type. Used for configuring url parameters in APIRequests (pageSize, below date)
 struct Query {
     var pageSize : Int?
     var below : Date?

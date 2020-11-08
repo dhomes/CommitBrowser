@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Observable pattern. Use to avoid RxSwift or other reactive frameworks (for simplicity)
 class Observable<T> {
     
     var value: T {
