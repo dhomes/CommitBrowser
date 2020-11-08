@@ -7,11 +7,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Commits Root Controller-->
+        <!--CommitBrowser-->
         <scene sceneID="MhR-7Z-Y3a">
             <objects>
                 <tableViewController id="1iF-6O-vI2" customClass="CommitsRootController" customModule="CommitBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tuj-Wb-dPf">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tuj-Wb-dPf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -20,6 +20,10 @@
                             <outlet property="delegate" destination="1iF-6O-vI2" id="Nc6-eI-eNB"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="CommitBrowser" largeTitleDisplayMode="always" id="HOQ-YA-ayd">
+                        <barButtonItem key="backBarButtonItem" title=" " id="hWp-nS-YPv"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVU-oj-w2F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

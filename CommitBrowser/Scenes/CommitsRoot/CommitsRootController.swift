@@ -28,7 +28,6 @@ class CommitsRootController: UITableViewController, StoryboardInstantiable {
         setupTableView()
         refreshFrom(.top)
     }
-    
 }
 
 extension CommitsRootController {
@@ -43,12 +42,10 @@ extension CommitsRootController {
     }
     
     func refreshFrom(_ direction : FetchDirection) {
+        refresh.endRefreshing()
         model.fetch(from: direction) { [weak self] error in
             guard let s = self else { return }
             s.showError(error)
-            if s.refresh.isRefreshing {
-                s.refresh.endRefreshing()
-            }
         }
     }
 }
@@ -60,6 +57,7 @@ extension CommitsRootController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let commit = model.commitAt(indexPath) else {
             let cell = deque(EmptyCell.self) as! EmptyCell
+            cell.isFetching = model.isFetching
             return cell
         }
         let commitCell = deque(CommitCell.self) as! CommitCell
@@ -68,9 +66,12 @@ extension CommitsRootController {
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if !model.hasCommits {
-            return tableView.frame.height
+            return tableView.frame.height - tableView.safeAreaInsets.top - tableView.safeAreaInsets.bottom
         }
         return UITableView.automaticDimension
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 

@@ -13,7 +13,11 @@ class CommitsRootCoordinator : Coordinator, ControllerContainingCoordinator {
         navigationController
     }
     
-    private var navigationController = UINavigationController()
+    private lazy var navigationController : UINavigationController = {
+        let nc = UINavigationController()
+        nc.navigationBar.prefersLargeTitles = true
+        return nc
+    }()
     
     override func start() {
         let commitsRootController = CommitsRootController.instantiate()

@@ -13,6 +13,7 @@ protocol CommitsRootViewModel {
     var hasCommits : Bool { get }
     func commitAt(_ index : IndexPath) -> Commit?
     func fetch(from direction : FetchDirection, completion : ((Error?) -> ())?)
+    var isFetching : Bool { get }
 }
 
 enum FetchDirection {
@@ -26,6 +27,7 @@ class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {
     private let repository : Repository
     private var pageSize : Int
     var hasMore = true
+    var isFetching = false
     
     init(_ networkService : T, repository : Repository, pageSize : Int = 25) {
         self.networkService = networkService
@@ -57,14 +59,20 @@ class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {
         let currentCommits = self.commits.value
         
         if !hasMore {
+            isFetching = false
             completion?(nil)
             return
         }
         
+        isFetching = true
         networkService.getCommits(with: request) { [weak self] result in
+            defer {
+                self?.isFetching = false
+            }
             let mainQueue = DispatchQueue.main
             switch result {
             case .failure(let error):
+                self?.commits.value = currentCommits
                 mainQueue.async {
                     completion?(error)
                 }

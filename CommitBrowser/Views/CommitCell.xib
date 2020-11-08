@@ -17,48 +17,61 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="m4s-1y-NQC">
-                        <rect key="frame" x="15" y="15" width="447" height="172"/>
+                        <rect key="frame" x="20" y="15" width="442" height="172"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="CommitMessage" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZqR-jN-vNj" userLabel="CommitMessage">
-                                <rect key="frame" x="0.0" y="0.0" width="447" height="44.5"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="CommitHash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iDa-9p-IBU">
-                                <rect key="frame" x="0.0" y="49.5" width="447" height="26.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="752" text="CommitMessage" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZqR-jN-vNj" userLabel="CommitMessage">
+                                <rect key="frame" x="0.0" y="0.0" width="442" height="26.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CommitDate" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kDs-kc-vHg" userLabel="CommitDate">
-                                <rect key="frame" x="0.0" y="81" width="447" height="16"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="CommitHash" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iDa-9p-IBU">
+                                <rect key="frame" x="0.0" y="31.5" width="442" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="755" axis="vertical" distribution="fillProportionally" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="TaC-ux-cRX">
-                                <rect key="frame" x="0.0" y="102" width="447" height="70"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LaK-eb-tK5">
+                                <rect key="frame" x="0.0" y="57" width="442" height="5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="AaB-RJ-Rc6"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="755" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TaC-ux-cRX">
+                                <rect key="frame" x="0.0" y="67" width="442" height="105"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q9v-Z6-QSZ">
-                                        <rect key="frame" x="402" y="0.0" width="45" height="45"/>
+                                        <rect key="frame" x="0.0" y="30" width="45" height="45"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Q9v-Z6-QSZ" secondAttribute="height" id="NDw-zp-IN8"/>
                                             <constraint firstAttribute="width" constant="45" id="vD4-ik-Mdk"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rfq-jA-ZZc">
-                                        <rect key="frame" x="410" y="45" width="37" height="13"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0C3-OW-18Y" userLabel="email">
-                                        <rect key="frame" x="419" y="58" width="28" height="12"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="URD-ap-vLg">
+                                        <rect key="frame" x="55" y="31" width="387" height="43.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rfq-jA-ZZc">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="14.5"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="email" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0C3-OW-18Y" userLabel="email">
+                                                <rect key="frame" x="0.0" y="14.5" width="30" height="14.5"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="CommitDate" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kDs-kc-vHg" userLabel="CommitDate">
+                                                <rect key="frame" x="0.0" y="29" width="70.5" height="14.5"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -73,11 +86,12 @@
                     <constraint firstAttribute="trailing" secondItem="m4s-1y-NQC" secondAttribute="trailing" constant="15" id="9vO-3Y-ewU"/>
                     <constraint firstAttribute="bottom" secondItem="m4s-1y-NQC" secondAttribute="bottom" constant="15" id="QJZ-DB-q5P"/>
                     <constraint firstItem="m4s-1y-NQC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Sku-nf-hsw"/>
-                    <constraint firstItem="m4s-1y-NQC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="cYN-Ac-Fs0"/>
+                    <constraint firstItem="m4s-1y-NQC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="cYN-Ac-Fs0"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="authorAvatar" destination="Q9v-Z6-QSZ" id="545-f3-MpE"/>
                 <outlet property="authorEmail" destination="0C3-OW-18Y" id="UIG-uw-1Rk"/>
                 <outlet property="authorName" destination="Rfq-jA-ZZc" id="kb9-Yw-JKp"/>
                 <outlet property="commitDate" destination="kDs-kc-vHg" id="tWp-MV-YEd"/>

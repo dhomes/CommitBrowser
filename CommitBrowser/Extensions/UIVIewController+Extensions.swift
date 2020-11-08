@@ -12,7 +12,11 @@ extension UIViewController {
         guard let e = error else { return }
         let alert = UIAlertController(title: "Error", message: e.localizedDescription, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Continue", style: .default, handler: nil))
+         
         self.present(alert,animated: true)
+        
+        
+        
     }
 }
 
