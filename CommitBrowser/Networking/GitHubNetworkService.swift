@@ -48,18 +48,15 @@ struct GitHubNetworkService : NetworkService {
                             completion?(.failure(result.error!))
                             return
                         }
-                        guard let code = result.statusCode else {
-                            completion?(.failure(NetworkError.invalidCode(nil, message: nil)))
-                            return
-                        }
+                        
                         do {
                             guard let data = result.content else {
                                 completion?(.failure(NetworkError.noContent))
                                 return
                             }
                             let json = try JSON(data: data)
-                            guard 200...299 ~= code else {
-                                completion?(.failure(NetworkError.invalidCode(code, message: json["message"].string)))
+                            guard let code = result.statusCode, 200...299 ~= code else {
+                                completion?(.failure(NetworkError.invalidCode(result.statusCode, message: json["message"].string)))
                                 return
                             }
                             completion?(.success(json))
