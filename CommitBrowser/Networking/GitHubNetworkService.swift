@@ -12,7 +12,19 @@ struct GitHubNetworkService : NetworkService {
     
     func getCommits(with request : APIRequest, completion : ((Result<[Commit],Error>) -> ())?) {
         
-
+        execute(request: request) { result in
+            switch result {
+            case .failure(let error):
+                completion?(.failure(error))
+            case .success(let json):
+                let commits = json.arrayValue.compactMap { GitHubCommit(json: $0)}
+                completion?(.success(commits))
+            }
+        }
+    }
+    
+    private func execute(request : APIRequest, completion : ((Result<JSON,Error>) -> ())?) {
+    
         Just.request(request.method,
                      url: request.endpoint,
                      params: request.queryParameters,
@@ -20,6 +32,7 @@ struct GitHubNetworkService : NetworkService {
                      timeout: 5,
                      requestBody: request.requestBody,
                      asyncCompletionHandler:  { (result) in
+                        
                         guard result.error == nil else {
                             completion?(.failure(result.error!))
                             return
@@ -38,11 +51,10 @@ struct GitHubNetworkService : NetworkService {
                                 completion?(.failure(NetworkError.invalidCode(code, message: json["message"].string)))
                                 return
                             }
-                            let commits = json.arrayValue.compactMap { GitHubCommit(json: $0)}
-                            completion?(.success(commits))
+                            completion?(.success(json))
                         } catch {
                             completion?(.failure(error))
                         }
-                })
+        })
     }
 }
