@@ -1,0 +1,1577 @@
+[
+    {
+        "sha": "6e4f48ee285ce2a21881392f4df0102976a545c7",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjZlNGY0OGVlMjg1Y2UyYTIxODgxMzkyZjRkZjAxMDI5NzZhNTQ1Yzc=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T21:34:18Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T21:34:18Z"
+            },
+            "message": "Added README with mark up",
+            "tree": {
+                "sha": "f6f0e2bfd1bcd28361872bc38d70400ea3397054",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/f6f0e2bfd1bcd28361872bc38d70400ea3397054"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/6e4f48ee285ce2a21881392f4df0102976a545c7",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/6e4f48ee285ce2a21881392f4df0102976a545c7",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/6e4f48ee285ce2a21881392f4df0102976a545c7",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/6e4f48ee285ce2a21881392f4df0102976a545c7/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f396f3691280bc299cefb46b3e3e3e49f434b19d",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/f396f3691280bc299cefb46b3e3e3e49f434b19d",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/f396f3691280bc299cefb46b3e3e3e49f434b19d"
+            }
+        ]
+    },
+    {
+        "sha": "f396f3691280bc299cefb46b3e3e3e49f434b19d",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOmYzOTZmMzY5MTI4MGJjMjk5Y2VmYjQ2YjNlM2UzZTQ5ZjQzNGIxOWQ=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T21:24:55Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T21:24:55Z"
+            },
+            "message": "Cleaned up unnecesary guard statement from NetworkService",
+            "tree": {
+                "sha": "0d990f3be60578e8b5257a208336d2b5505e2c84",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/0d990f3be60578e8b5257a208336d2b5505e2c84"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/f396f3691280bc299cefb46b3e3e3e49f434b19d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/f396f3691280bc299cefb46b3e3e3e49f434b19d",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/f396f3691280bc299cefb46b3e3e3e49f434b19d",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/f396f3691280bc299cefb46b3e3e3e49f434b19d/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "68095e1c77e030c9df915740c6a7a4a3b5a69167",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/68095e1c77e030c9df915740c6a7a4a3b5a69167",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/68095e1c77e030c9df915740c6a7a4a3b5a69167"
+            }
+        ]
+    },
+    {
+        "sha": "68095e1c77e030c9df915740c6a7a4a3b5a69167",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjY4MDk1ZTFjNzdlMDMwYzlkZjkxNTc0MGM2YTdhNGEzYjVhNjkxNjc=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T21:20:34Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T21:20:34Z"
+            },
+            "message": "Improved dark mode support. Added Appearance protocol, font extension, tweaks to ui",
+            "tree": {
+                "sha": "ab68a451022c7956d97b86117083beee393e3103",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/ab68a451022c7956d97b86117083beee393e3103"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/68095e1c77e030c9df915740c6a7a4a3b5a69167",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/68095e1c77e030c9df915740c6a7a4a3b5a69167",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/68095e1c77e030c9df915740c6a7a4a3b5a69167",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/68095e1c77e030c9df915740c6a7a4a3b5a69167/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d49499376fc1401eec81463280258e1a0752f859",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/d49499376fc1401eec81463280258e1a0752f859",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/d49499376fc1401eec81463280258e1a0752f859"
+            }
+        ]
+    },
+    {
+        "sha": "d49499376fc1401eec81463280258e1a0752f859",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOmQ0OTQ5OTM3NmZjMTQwMWVlYzgxNDYzMjgwMjU4ZTFhMDc1MmY4NTk=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T04:20:19Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T04:20:19Z"
+            },
+            "message": "Minor appearance update",
+            "tree": {
+                "sha": "45375a9b6ff8189dc8e4256ea7c6681a1c31d9a5",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/45375a9b6ff8189dc8e4256ea7c6681a1c31d9a5"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/d49499376fc1401eec81463280258e1a0752f859",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/d49499376fc1401eec81463280258e1a0752f859",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/d49499376fc1401eec81463280258e1a0752f859",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/d49499376fc1401eec81463280258e1a0752f859/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "63ece063780f4d5852ec57b6688baf0bbed50237",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/63ece063780f4d5852ec57b6688baf0bbed50237",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/63ece063780f4d5852ec57b6688baf0bbed50237"
+            }
+        ]
+    },
+    {
+        "sha": "63ece063780f4d5852ec57b6688baf0bbed50237",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjYzZWNlMDYzNzgwZjRkNTg1MmVjNTdiNjY4OGJhZjBiYmVkNTAyMzc=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T03:45:20Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T03:45:20Z"
+            },
+            "message": "Filled README",
+            "tree": {
+                "sha": "a772740df933d59213d90d1b18be850736b2398a",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/a772740df933d59213d90d1b18be850736b2398a"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/63ece063780f4d5852ec57b6688baf0bbed50237",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/63ece063780f4d5852ec57b6688baf0bbed50237",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/63ece063780f4d5852ec57b6688baf0bbed50237",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/63ece063780f4d5852ec57b6688baf0bbed50237/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "65fa6571aaefc5386c25da9251c33d281a214e38",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/65fa6571aaefc5386c25da9251c33d281a214e38",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/65fa6571aaefc5386c25da9251c33d281a214e38"
+            }
+        ]
+    },
+    {
+        "sha": "65fa6571aaefc5386c25da9251c33d281a214e38",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjY1ZmE2NTcxYWFlZmM1Mzg2YzI1ZGE5MjUxYzMzZDI4MWEyMTRlMzg=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T03:33:24Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T03:33:24Z"
+            },
+            "message": "Improved Network Service",
+            "tree": {
+                "sha": "5999f58296e9d844c774690fd138d72b70fceec1",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/5999f58296e9d844c774690fd138d72b70fceec1"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/65fa6571aaefc5386c25da9251c33d281a214e38",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/65fa6571aaefc5386c25da9251c33d281a214e38",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/65fa6571aaefc5386c25da9251c33d281a214e38",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/65fa6571aaefc5386c25da9251c33d281a214e38/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "487fb1f85e63bb4e205b5e28e3a929a26558b27e",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/487fb1f85e63bb4e205b5e28e3a929a26558b27e",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/487fb1f85e63bb4e205b5e28e3a929a26558b27e"
+            }
+        ]
+    },
+    {
+        "sha": "487fb1f85e63bb4e205b5e28e3a929a26558b27e",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjQ4N2ZiMWY4NWU2M2JiNGUyMDViNWUyOGUzYTkyOWEyNjU1OGIyN2U=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T02:59:17Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T02:59:17Z"
+            },
+            "message": "Added icons, logos, tweaked appearance",
+            "tree": {
+                "sha": "28202129e11137c09e21f5bca10da8a5e9dea48f",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/28202129e11137c09e21f5bca10da8a5e9dea48f"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/487fb1f85e63bb4e205b5e28e3a929a26558b27e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/487fb1f85e63bb4e205b5e28e3a929a26558b27e",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/487fb1f85e63bb4e205b5e28e3a929a26558b27e",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/487fb1f85e63bb4e205b5e28e3a929a26558b27e/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "db06efe0c7a505783fa1bd7aff7374be916e64fb",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/db06efe0c7a505783fa1bd7aff7374be916e64fb",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/db06efe0c7a505783fa1bd7aff7374be916e64fb"
+            }
+        ]
+    },
+    {
+        "sha": "db06efe0c7a505783fa1bd7aff7374be916e64fb",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOmRiMDZlZmUwYzdhNTA1NzgzZmExYmQ3YWZmNzM3NGJlOTE2ZTY0ZmI=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T00:38:35Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T00:38:35Z"
+            },
+            "message": "Added fetch from bottom",
+            "tree": {
+                "sha": "5efb04175124802a5ef9a6674fd6a77921781110",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/5efb04175124802a5ef9a6674fd6a77921781110"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/db06efe0c7a505783fa1bd7aff7374be916e64fb",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/db06efe0c7a505783fa1bd7aff7374be916e64fb",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/db06efe0c7a505783fa1bd7aff7374be916e64fb",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/db06efe0c7a505783fa1bd7aff7374be916e64fb/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "09b5750053e089fe5fe23936fdbb573603512f7f",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/09b5750053e089fe5fe23936fdbb573603512f7f",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/09b5750053e089fe5fe23936fdbb573603512f7f"
+            }
+        ]
+    },
+    {
+        "sha": "09b5750053e089fe5fe23936fdbb573603512f7f",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjA5YjU3NTAwNTNlMDg5ZmU1ZmUyMzkzNmZkYmI1NzM2MDM1MTJmN2Y=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T00:10:24Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-08T00:10:24Z"
+            },
+            "message": "Improved CommitCell UI, updated NoCommit cell, added basic handler for API limit",
+            "tree": {
+                "sha": "5fe6bbff985660d242a0d5216b89a82589011c9e",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/5fe6bbff985660d242a0d5216b89a82589011c9e"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/09b5750053e089fe5fe23936fdbb573603512f7f",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/09b5750053e089fe5fe23936fdbb573603512f7f",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/09b5750053e089fe5fe23936fdbb573603512f7f",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/09b5750053e089fe5fe23936fdbb573603512f7f/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "593f817689346088c31c3810320e33e91aa78280",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/593f817689346088c31c3810320e33e91aa78280",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/593f817689346088c31c3810320e33e91aa78280"
+            }
+        ]
+    },
+    {
+        "sha": "593f817689346088c31c3810320e33e91aa78280",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjU5M2Y4MTc2ODkzNDYwODhjMzFjMzgxMDMyMGUzM2U5MWFhNzgyODA=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T22:27:33Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T22:27:33Z"
+            },
+            "message": "Completed basic fetching",
+            "tree": {
+                "sha": "71c1c7988830fd0942f0ad74ff63e6ab07e409d7",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/71c1c7988830fd0942f0ad74ff63e6ab07e409d7"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/593f817689346088c31c3810320e33e91aa78280",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/593f817689346088c31c3810320e33e91aa78280",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/593f817689346088c31c3810320e33e91aa78280",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/593f817689346088c31c3810320e33e91aa78280/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0d93a1ad97b2026eada42bd8ed94daeddfd8b894",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/0d93a1ad97b2026eada42bd8ed94daeddfd8b894",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/0d93a1ad97b2026eada42bd8ed94daeddfd8b894"
+            }
+        ]
+    },
+    {
+        "sha": "0d93a1ad97b2026eada42bd8ed94daeddfd8b894",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjBkOTNhMWFkOTdiMjAyNmVhZGE0MmJkOGVkOTRkYWVkZGZkOGI4OTQ=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T21:22:16Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T21:22:16Z"
+            },
+            "message": "Added Cells + ReusableNib protocol",
+            "tree": {
+                "sha": "02069207713dc2d84513f306ac81b0099157773e",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/02069207713dc2d84513f306ac81b0099157773e"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/0d93a1ad97b2026eada42bd8ed94daeddfd8b894",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/0d93a1ad97b2026eada42bd8ed94daeddfd8b894",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/0d93a1ad97b2026eada42bd8ed94daeddfd8b894",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/0d93a1ad97b2026eada42bd8ed94daeddfd8b894/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ed07943c596658eb2c4e84f024bb70d2a735dc9c",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/ed07943c596658eb2c4e84f024bb70d2a735dc9c",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/ed07943c596658eb2c4e84f024bb70d2a735dc9c"
+            }
+        ]
+    },
+    {
+        "sha": "ed07943c596658eb2c4e84f024bb70d2a735dc9c",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOmVkMDc5NDNjNTk2NjU4ZWIyYzRlODRmMDI0YmI3MGQyYTczNWRjOWM=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T17:08:16Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T17:08:16Z"
+            },
+            "message": "Added Query & Repository structs, updated APIRequest protocol and GitHubRequest, updated CommitViewModel, NetworkServiceTests",
+            "tree": {
+                "sha": "610675ea63d231f7f20528758835e8ae7b6c2453",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/610675ea63d231f7f20528758835e8ae7b6c2453"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/ed07943c596658eb2c4e84f024bb70d2a735dc9c",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/ed07943c596658eb2c4e84f024bb70d2a735dc9c",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/ed07943c596658eb2c4e84f024bb70d2a735dc9c",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/ed07943c596658eb2c4e84f024bb70d2a735dc9c/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4e6931606c402f4147bdb552130b3721f31ce4df",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/4e6931606c402f4147bdb552130b3721f31ce4df",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/4e6931606c402f4147bdb552130b3721f31ce4df"
+            }
+        ]
+    },
+    {
+        "sha": "4e6931606c402f4147bdb552130b3721f31ce4df",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjRlNjkzMTYwNmM0MDJmNDE0N2JkYjU1MjEzMGIzNzIxZjMxY2U0ZGY=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T12:04:29Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T12:04:29Z"
+            },
+            "message": "Simplified GitHub model / Switch to parsing via SwiftyJson. Updated unit tests",
+            "tree": {
+                "sha": "fd9625d777ce86c3cee5af75cdac634e18a7678e",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/fd9625d777ce86c3cee5af75cdac634e18a7678e"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/4e6931606c402f4147bdb552130b3721f31ce4df",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/4e6931606c402f4147bdb552130b3721f31ce4df",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/4e6931606c402f4147bdb552130b3721f31ce4df",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/4e6931606c402f4147bdb552130b3721f31ce4df/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "106c032a858dfa529e13d8c1c96d3c6b2712be7a",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/106c032a858dfa529e13d8c1c96d3c6b2712be7a",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/106c032a858dfa529e13d8c1c96d3c6b2712be7a"
+            }
+        ]
+    },
+    {
+        "sha": "106c032a858dfa529e13d8c1c96d3c6b2712be7a",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjEwNmMwMzJhODU4ZGZhNTI5ZTEzZDhjMWM5NmQzYzZiMjcxMmJlN2E=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T00:53:58Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-07T00:53:58Z"
+            },
+            "message": "Added Networking Protocols, implementations, unit test",
+            "tree": {
+                "sha": "252a27b68426893558d139fdf80f40ef6f856dd7",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/252a27b68426893558d139fdf80f40ef6f856dd7"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/106c032a858dfa529e13d8c1c96d3c6b2712be7a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/106c032a858dfa529e13d8c1c96d3c6b2712be7a",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/106c032a858dfa529e13d8c1c96d3c6b2712be7a",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/106c032a858dfa529e13d8c1c96d3c6b2712be7a/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "88c1a1cc8bc17f9c20e91dc31e9e60c17520f2e9",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/88c1a1cc8bc17f9c20e91dc31e9e60c17520f2e9",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/88c1a1cc8bc17f9c20e91dc31e9e60c17520f2e9"
+            }
+        ]
+    },
+    {
+        "sha": "88c1a1cc8bc17f9c20e91dc31e9e60c17520f2e9",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjg4YzFhMWNjOGJjMTdmOWMyMGU5MWRjMzFlOWU2MGMxNzUyMGYyZTk=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T21:56:20Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T21:56:20Z"
+            },
+            "message": "Added CommitSummary, Tree, Verification & Commit protocols & implementing structs. Added CommitView",
+            "tree": {
+                "sha": "a11cdff57fd7ae17cb0822f5e859e76ce39e8f70",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/a11cdff57fd7ae17cb0822f5e859e76ce39e8f70"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/88c1a1cc8bc17f9c20e91dc31e9e60c17520f2e9",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/88c1a1cc8bc17f9c20e91dc31e9e60c17520f2e9",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/88c1a1cc8bc17f9c20e91dc31e9e60c17520f2e9",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/88c1a1cc8bc17f9c20e91dc31e9e60c17520f2e9/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8526e8c3063d23ad50da5413e608945eed723d80",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/8526e8c3063d23ad50da5413e608945eed723d80",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/8526e8c3063d23ad50da5413e608945eed723d80"
+            }
+        ]
+    },
+    {
+        "sha": "8526e8c3063d23ad50da5413e608945eed723d80",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjg1MjZlOGMzMDYzZDIzYWQ1MGRhNTQxM2U2MDg5NDVlZWQ3MjNkODA=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T18:36:44Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T18:36:44Z"
+            },
+            "message": "Added UserSummary / GitHubUserSummary / Decodable test",
+            "tree": {
+                "sha": "e024774b8670d277656683412dfa1ee559274e9e",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/e024774b8670d277656683412dfa1ee559274e9e"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/8526e8c3063d23ad50da5413e608945eed723d80",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/8526e8c3063d23ad50da5413e608945eed723d80",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/8526e8c3063d23ad50da5413e608945eed723d80",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/8526e8c3063d23ad50da5413e608945eed723d80/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "de30f436d708aaaca6c373b141120bb1f4ff6d84",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/de30f436d708aaaca6c373b141120bb1f4ff6d84",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/de30f436d708aaaca6c373b141120bb1f4ff6d84"
+            }
+        ]
+    },
+    {
+        "sha": "de30f436d708aaaca6c373b141120bb1f4ff6d84",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOmRlMzBmNDM2ZDcwOGFhYWNhNmMzNzNiMTQxMTIwYmIxZjRmZjZkODQ=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T18:01:21Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T18:01:21Z"
+            },
+            "message": "Added User protocol / GitHubUser / Decodable test",
+            "tree": {
+                "sha": "2ba0295b914c122600f021b88d7844acd5bd6ee2",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/2ba0295b914c122600f021b88d7844acd5bd6ee2"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/de30f436d708aaaca6c373b141120bb1f4ff6d84",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/de30f436d708aaaca6c373b141120bb1f4ff6d84",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/de30f436d708aaaca6c373b141120bb1f4ff6d84",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/de30f436d708aaaca6c373b141120bb1f4ff6d84/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "83e03e2ead65872a104a73fb6f0dd656bafd0c68",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/83e03e2ead65872a104a73fb6f0dd656bafd0c68",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/83e03e2ead65872a104a73fb6f0dd656bafd0c68"
+            }
+        ]
+    },
+    {
+        "sha": "83e03e2ead65872a104a73fb6f0dd656bafd0c68",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjgzZTAzZTJlYWQ2NTg3MmExMDRhNzNmYjZmMGRkNjU2YmFmZDBjNjg=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T12:24:54Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T12:24:54Z"
+            },
+            "message": "Removed Built-in Main Storyboard and references",
+            "tree": {
+                "sha": "52d2617bde6a0241f8acfe760fc41ecb0a71c2d1",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/52d2617bde6a0241f8acfe760fc41ecb0a71c2d1"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/83e03e2ead65872a104a73fb6f0dd656bafd0c68",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/83e03e2ead65872a104a73fb6f0dd656bafd0c68",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/83e03e2ead65872a104a73fb6f0dd656bafd0c68",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/83e03e2ead65872a104a73fb6f0dd656bafd0c68/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b60b105b7a037721e2928364313e842af3d45ad3",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/b60b105b7a037721e2928364313e842af3d45ad3",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/b60b105b7a037721e2928364313e842af3d45ad3"
+            }
+        ]
+    },
+    {
+        "sha": "b60b105b7a037721e2928364313e842af3d45ad3",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOmI2MGIxMDViN2EwMzc3MjFlMjkyODM2NDMxM2U4NDJhZjNkNDVhZDM=",
+        "commit": {
+            "author": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T12:09:00Z"
+            },
+            "committer": {
+                "name": "David Homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T12:09:00Z"
+            },
+            "message": "Initial commit / Added Navigation via Coordinators",
+            "tree": {
+                "sha": "bf6a3127437416cc30cb1b96d71513f2afb7e16f",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/bf6a3127437416cc30cb1b96d71513f2afb7e16f"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/b60b105b7a037721e2928364313e842af3d45ad3",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/b60b105b7a037721e2928364313e842af3d45ad3",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/b60b105b7a037721e2928364313e842af3d45ad3",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/b60b105b7a037721e2928364313e842af3d45ad3/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "974922ce82e71cad1416bfacea60e541a8df522f",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/974922ce82e71cad1416bfacea60e541a8df522f",
+                "html_url": "https://github.com/dhomes/CommitBrowser/commit/974922ce82e71cad1416bfacea60e541a8df522f"
+            }
+        ]
+    },
+    {
+        "sha": "974922ce82e71cad1416bfacea60e541a8df522f",
+        "node_id": "MDY6Q29tbWl0MzEwNTY5MjEwOjk3NDkyMmNlODJlNzFjYWQxNDE2YmZhY2VhNjBlNTQxYThkZjUyMmY=",
+        "commit": {
+            "author": {
+                "name": "david homes",
+                "email": "dhomes@gmail.com",
+                "date": "2020-11-06T10:49:09Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-11-06T10:49:09Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "787fb2e1edd718cb7fb27e5767274dbd46b242c9",
+                "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/trees/787fb2e1edd718cb7fb27e5767274dbd46b242c9"
+            },
+            "url": "https://api.github.com/repos/dhomes/CommitBrowser/git/commits/974922ce82e71cad1416bfacea60e541a8df522f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfpSolCRBK7hj4Ov3rIwAAdHIIAJkGjTPb9mJe5fqulTWQN/op\n8Y1gvzVFANNmTFyXBN05IZxioUDyBJ8QVsh3mcZ6LbhMl0HgzJIsY3I+263qc7pP\nkrfoghRtTa5Hf+s0Kzm8xM27cKc+f012AQ0X452r2Qnfv3SORSCtxJXHf5xdTfbt\nrxsNsgqXeDNwyBetNvQdTeMlrRjZnfGX6zzFR3N7bMsdi9u33W40o5s4b8b8Yckl\nBnsfhsAJtq7Vp4h5yv2rXK3EXSTYbHq9cn185dsNSMvFMpYfwo3raWx1fA54lN5C\nwQABy/KA3kiIBAOvNu2Jm0gAVpsDbxMpIqB4fd03XLCWvYcSC2cMGpBamKUHrBI=\n=pM+x\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 787fb2e1edd718cb7fb27e5767274dbd46b242c9\nauthor david homes <dhomes@gmail.com> 1604659749 -0600\ncommitter GitHub <noreply@github.com> 1604659749 -0600\n\nInitial commit"
+            }
+        },
+        "url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/974922ce82e71cad1416bfacea60e541a8df522f",
+        "html_url": "https://github.com/dhomes/CommitBrowser/commit/974922ce82e71cad1416bfacea60e541a8df522f",
+        "comments_url": "https://api.github.com/repos/dhomes/CommitBrowser/commits/974922ce82e71cad1416bfacea60e541a8df522f/comments",
+        "author": {
+            "login": "dhomes",
+            "id": 152622,
+            "node_id": "MDQ6VXNlcjE1MjYyMg==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/152622?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dhomes",
+            "html_url": "https://github.com/dhomes",
+            "followers_url": "https://api.github.com/users/dhomes/followers",
+            "following_url": "https://api.github.com/users/dhomes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dhomes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dhomes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dhomes/subscriptions",
+            "organizations_url": "https://api.github.com/users/dhomes/orgs",
+            "repos_url": "https://api.github.com/users/dhomes/repos",
+            "events_url": "https://api.github.com/users/dhomes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dhomes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": []
+    }
+]
+

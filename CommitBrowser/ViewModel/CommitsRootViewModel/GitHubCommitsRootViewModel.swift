@@ -1,27 +1,11 @@
 //
-//  CommitViewModel.swift
+//  idfjd.swift
 //  CommitBrowser
 //
-//  Created by dhomes on 11/7/20.
+//  Created by dhomes on 11/8/20.
 //
 
 import Foundation
-
-/// ViewModel protocol for CommitsRoot
-protocol CommitsRootViewModel {
-    var commits : Observable<[Commit]> { get }
-    var numberOfRows : Int { get }
-    var hasCommits : Bool { get }
-    func commitAt(_ index : IndexPath) -> Commit?
-    func fetch(from direction : FetchDirection, completion : ((Error?) -> ())?)
-    var isFetching : Bool { get }
- 
-}
-
-/// Enumerator for fetch direction
-enum FetchDirection {
-    case top, bottom
-}
 
 /// Concrete class used by the app
 class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {

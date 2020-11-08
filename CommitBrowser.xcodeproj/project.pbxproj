@@ -42,6 +42,11 @@
 		B9B8372725588D2300E9D761 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8372625588D2300E9D761 /* Appearance.swift */; };
 		B9B8372C2558910B00E9D761 /* CommitAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8372B2558910B00E9D761 /* CommitAppearance.swift */; };
 		B9B83749255894A700E9D761 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B83748255894A700E9D761 /* UIFont+Extensions.swift */; };
+		B9B8374E25589C5000E9D761 /* GitHubCommitsRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8374D25589C5000E9D761 /* GitHubCommitsRootViewModel.swift */; };
+		B9B8375725589C8E00E9D761 /* FetchDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8375625589C8E00E9D761 /* FetchDirection.swift */; };
+		B9B8376B25589D8800E9D761 /* CurrentCommits.json in Resources */ = {isa = PBXBuildFile; fileRef = B9B8376A25589D8800E9D761 /* CurrentCommits.json */; };
+		B9B8377025589DF000E9D761 /* CommitsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8376F25589DF000E9D761 /* CommitsViewModelTests.swift */; };
+		B9B8377525589E1600E9D761 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8377425589E1600E9D761 /* MockNetworkService.swift */; };
 		B9CF88AC255710E5009416B8 /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF88AA255710E5009416B8 /* EmptyCell.swift */; };
 		B9CF88AD255710E5009416B8 /* EmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CF88AB255710E5009416B8 /* EmptyCell.xib */; };
 		B9CF88B3255712FC009416B8 /* CommitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF88B1255712FC009416B8 /* CommitCell.swift */; };
@@ -49,7 +54,7 @@
 		B9D518972556B07D00600665 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D518962556B07D00600665 /* Commit.swift */; };
 		B9D518A52556BBCA00600665 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D518A42556BBCA00600665 /* SwiftyJSON.swift */; };
 		B9D518AA2556BC0200600665 /* GitHubCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D518A92556BC0200600665 /* GitHubCommit.swift */; };
-		B9F63F0325569D1D00919035 /* CommitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F63F0225569D1D00919035 /* CommitViewModel.swift */; };
+		B9F63F0325569D1D00919035 /* CommitsRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F63F0225569D1D00919035 /* CommitsRootViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +114,11 @@
 		B9B8372625588D2300E9D761 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		B9B8372B2558910B00E9D761 /* CommitAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitAppearance.swift; sourceTree = "<group>"; };
 		B9B83748255894A700E9D761 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		B9B8374D25589C5000E9D761 /* GitHubCommitsRootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubCommitsRootViewModel.swift; sourceTree = "<group>"; };
+		B9B8375625589C8E00E9D761 /* FetchDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDirection.swift; sourceTree = "<group>"; };
+		B9B8376A25589D8800E9D761 /* CurrentCommits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CurrentCommits.json; sourceTree = "<group>"; };
+		B9B8376F25589DF000E9D761 /* CommitsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsViewModelTests.swift; sourceTree = "<group>"; };
+		B9B8377425589E1600E9D761 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
 		B9CF88AA255710E5009416B8 /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
 		B9CF88AB255710E5009416B8 /* EmptyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCell.xib; sourceTree = "<group>"; };
 		B9CF88B1255712FC009416B8 /* CommitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitCell.swift; sourceTree = "<group>"; };
@@ -116,7 +126,7 @@
 		B9D518962556B07D00600665 /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
 		B9D518A42556BBCA00600665 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		B9D518A92556BC0200600665 /* GitHubCommit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubCommit.swift; sourceTree = "<group>"; };
-		B9F63F0225569D1D00919035 /* CommitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitViewModel.swift; sourceTree = "<group>"; };
+		B9F63F0225569D1D00919035 /* CommitsRootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsRootViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +172,7 @@
 				B96807502555DE5B00809CD7 /* SampleUser.json */,
 				B968076E2555E8F400809CD7 /* Commit.json */,
 				B96807732555F00400809CD7 /* Commits.json */,
+				B9B8376A25589D8800E9D761 /* CurrentCommits.json */,
 			);
 			path = jsons;
 			sourceTree = "<group>";
@@ -169,7 +180,7 @@
 		B96807782555F10700809CD7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				B9F63F0225569D1D00919035 /* CommitViewModel.swift */,
+				B9B8375B25589CBE00E9D761 /* CommitsRootViewModel */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -217,6 +228,7 @@
 		B97A0D7D2555631900840157 /* CommitBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				B9B8375525589C7800E9D761 /* Enumerators */,
 				B97A0DC62555641100840157 /* Application */,
 				B984C4E32557485500EF4C4F /* Extensions */,
 				B97A0DD22555651F00840157 /* Helpers */,
@@ -233,10 +245,12 @@
 		B97A0D942555631B00840157 /* CommitBrowserTests */ = {
 			isa = PBXGroup;
 			children = (
+				B9B8377F2558AB4200E9D761 /* Mocks */,
+				B9B8376F25589DF000E9D761 /* CommitsViewModelTests.swift */,
 				B97A0D972555631B00840157 /* Info.plist */,
 				B96806F32555BF2400809CD7 /* JsonParsingTests.swift */,
-				B96807B125561A3E00809CD7 /* NetworkServiceTests.swift */,
 				B968074D2555DE5B00809CD7 /* jsons */,
+				B96807B125561A3E00809CD7 /* NetworkServiceTests.swift */,
 			);
 			path = CommitBrowserTests;
 			sourceTree = "<group>";
@@ -305,7 +319,6 @@
 				B9B8372B2558910B00E9D761 /* CommitAppearance.swift */,
 				B937EB4125570C9400DC6948 /* ReusableNib.swift */,
 				B97A0DD42555660B00840157 /* StoryboardInstantiable.swift */,
-				B97A0DDC255566AE00840157 /* Storyboards.swift */,
 				B9D518A42556BBCA00600665 /* SwiftyJSON.swift */,
 			);
 			path = Helpers;
@@ -341,6 +354,32 @@
 				B9B83748255894A700E9D761 /* UIFont+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B9B8375525589C7800E9D761 /* Enumerators */ = {
+			isa = PBXGroup;
+			children = (
+				B97A0DDC255566AE00840157 /* Storyboards.swift */,
+				B9B8375625589C8E00E9D761 /* FetchDirection.swift */,
+			);
+			path = Enumerators;
+			sourceTree = "<group>";
+		};
+		B9B8375B25589CBE00E9D761 /* CommitsRootViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B9F63F0225569D1D00919035 /* CommitsRootViewModel.swift */,
+				B9B8374D25589C5000E9D761 /* GitHubCommitsRootViewModel.swift */,
+			);
+			path = CommitsRootViewModel;
+			sourceTree = "<group>";
+		};
+		B9B8377F2558AB4200E9D761 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B8377425589E1600E9D761 /* MockNetworkService.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,6 +511,7 @@
 				B96807742555F00400809CD7 /* Commits.json in Resources */,
 				B96807532555DE5B00809CD7 /* SampleUser.json in Resources */,
 				B96807512555DE5B00809CD7 /* CommitData.json in Resources */,
+				B9B8376B25589D8800E9D761 /* CurrentCommits.json in Resources */,
 				B96807522555DE5B00809CD7 /* UserSummary.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,7 +532,7 @@
 			files = (
 				B96807C8255697FA00809CD7 /* Observable.swift in Sources */,
 				B9D518AA2556BC0200600665 /* GitHubCommit.swift in Sources */,
-				B9F63F0325569D1D00919035 /* CommitViewModel.swift in Sources */,
+				B9F63F0325569D1D00919035 /* CommitsRootViewModel.swift in Sources */,
 				B9D518972556B07D00600665 /* Commit.swift in Sources */,
 				B9B8372C2558910B00E9D761 /* CommitAppearance.swift in Sources */,
 				B984C4E52557486C00EF4C4F /* UIVIewController+Extensions.swift in Sources */,
@@ -504,8 +544,10 @@
 				B9CF88B3255712FC009416B8 /* CommitCell.swift in Sources */,
 				B97A0DFB25556EB100840157 /* CommitsRootCoordinator.swift in Sources */,
 				B937EB292557011800DC6948 /* Query.swift in Sources */,
+				B9B8375725589C8E00E9D761 /* FetchDirection.swift in Sources */,
 				B96807A2255618F600809CD7 /* NetworkError.swift in Sources */,
 				B97A0DDD255566AE00840157 /* Storyboards.swift in Sources */,
+				B9B8374E25589C5000E9D761 /* GitHubCommitsRootViewModel.swift in Sources */,
 				B97A0D7F2555631900840157 /* AppDelegate.swift in Sources */,
 				B97A0DF625556E6900840157 /* CommitsRootController.swift in Sources */,
 				B968078A2555FEBD00809CD7 /* GitHubRequest.swift in Sources */,
@@ -523,6 +565,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B8377525589E1600E9D761 /* MockNetworkService.swift in Sources */,
+				B9B8377025589DF000E9D761 /* CommitsViewModelTests.swift in Sources */,
 				B96807B225561A3E00809CD7 /* NetworkServiceTests.swift in Sources */,
 				B96806F42555BF2400809CD7 /* JsonParsingTests.swift in Sources */,
 			);
@@ -687,7 +731,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MM68ANJS23;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CommitBrowser/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -706,7 +750,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MM68ANJS23;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CommitBrowser/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
