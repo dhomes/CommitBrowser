@@ -22,6 +22,9 @@ class CommitsRootController: UITableViewController, StoryboardInstantiable {
     
     let refresh = UIRefreshControl()
     
+    // lets use a default that can be overwritten
+    var appearance : Appearance = CommitAppearance()
+    
     //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +41,7 @@ extension CommitsRootController {
         refresh.addAction(.init(handler: { [weak self] _ in
             self?.refreshFrom(.top)
         }), for: .valueChanged)
+        refresh.tintColor = appearance.activityIndicatorColor
         tableView.refreshControl = refresh
     }
     

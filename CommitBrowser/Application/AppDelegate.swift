@@ -11,6 +11,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        theme(CommitAppearance())
         return true
     }
 
@@ -25,4 +26,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+private extension AppDelegate {
+    func theme(_ appearance : Appearance) {
+        
+        let coloredAppearance = UINavigationBarAppearance()
+        coloredAppearance.configureWithOpaqueBackground()
+        coloredAppearance.backgroundColor = appearance.navigationBarBackgroundColor
+        let titleTextColor = appearance.navigationTitleTextColor
+        coloredAppearance.titleTextAttributes = [.foregroundColor: titleTextColor]
+        coloredAppearance.largeTitleTextAttributes = [.foregroundColor: titleTextColor]
+               
+        UINavigationBar.appearance().standardAppearance = coloredAppearance
+        UINavigationBar.appearance().scrollEdgeAppearance = coloredAppearance
+
+    }
+}
 
