@@ -58,7 +58,7 @@ class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {
         let request = GitHubRequest.getCommits(repository, query)
         let currentCommits = self.commits.value
         
-        if !hasMore {
+        if !hasMore || isFetching {
             isFetching = false
             completion?(nil)
             return

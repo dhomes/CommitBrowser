@@ -73,5 +73,12 @@ extension CommitsRootController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if indexPath.row == model.numberOfRows - 1 && model.hasCommits {
+            model.fetch(from: .bottom) { [weak self] error in
+                self?.showError(error)
+            }
+        }
+    }
 }
 
