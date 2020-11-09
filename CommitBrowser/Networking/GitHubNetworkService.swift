@@ -17,7 +17,6 @@ struct GitHubNetworkService : NetworkService {
     ///   - completion: typed result with .success [Commit]
     /// - Returns: array of Commit  (via completion block)
     func getCommits(with request : APIRequest, completion : ((Result<[Commit],Error>) -> ())?) {
-        
         execute(request: request) { result in
             switch result {
             case .failure(let error):
@@ -29,13 +28,40 @@ struct GitHubNetworkService : NetworkService {
         }
     }
     
+    /// Get files from a commit
+    /// - Parameters:
+    ///   - commit: Commit to get files for
+    ///   - completion: typed completion with .success [File]
+    /// - Returns: array of Files (via completion block)
+    func getFiles(for commit : Commit, completion : ((Result<[File],Error>) -> ())?) {
+        struct CommitRequest : APIRequest {
+            var queryParameters: [String : Any] { defaultParameters }
+            private var commit : Commit
+            init(_ commit : Commit) {
+                self.commit = commit
+            }
+            var endpoint: URL {
+                commit.url
+            }
+        }
+        let request = CommitRequest(commit)
+        execute(request: request) { result in
+            switch result {
+            case .failure(let error):
+                completion?(.failure(error))
+            case .success(let json):
+                let files = json["files"].arrayValue.compactMap { GitHubFile(json: $0)}
+                completion?(.success(files))
+            }
+        }
+    }
+    
     /// Executes a network request to retrieve a JSON object
     /// - Parameters:
     ///   - request: the request to execute
     ///   - completion: completion object with .success -> JSON
     /// - Returns: JSON via completion block, or errors
     private func execute(request : APIRequest, completion : ((Result<JSON,Error>) -> ())?) {
-    
         Just.request(request.method,
                      url: request.endpoint,
                      params: request.queryParameters,

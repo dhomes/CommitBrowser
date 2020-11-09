@@ -17,6 +17,22 @@ extension UIViewController {
         alert.addAction(UIAlertAction(title: "Continue", style: .default, handler: nil))
         self.present(alert,animated: true)
     }
+    
+    /// Returns whether UIViewController is still in navigation stack
+    var wasPoppedFromNavigation : Bool {
+        guard let navigationController = self.navigationController else {
+            return true
+        }
+        // something was pushed
+        if navigationController.viewControllers.contains(self) {
+            return false
+        }
+        if navigationController.viewControllers.last == self {
+            return false
+        } else {
+            return true
+        }
+    }
 }
 
 extension UITableViewController {

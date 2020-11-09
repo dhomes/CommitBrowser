@@ -17,6 +17,7 @@ protocol APIRequest {
     var headers : [String : String] { get }
     var endpoint : URL { get }
     var requestBody : Data? { get }
+    var defaultParameters : [String : Any] { get }
     var queryParameters : [String : Any] { get }
 }
 
@@ -36,8 +37,13 @@ extension APIRequest {
     var requestBody : Data? {
         nil
     }
-    
-    var queryParameters : [String : Any]? {
-        [String:Any]()
+    var defaultParameters : [String : Any] {
+        [String : Any]()
+    }
+    var method : HTTPMethod {
+        return .get
+    }
+    var path : String {
+        ""
     }
 }

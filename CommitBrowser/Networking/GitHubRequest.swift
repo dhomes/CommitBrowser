@@ -13,18 +13,14 @@ import Just
 enum GitHubRequest : APIRequest {
     
     case getCommits(_ repository : Repository, _ query : Query)
-
+    case getFiles(_ repository : Repository, sha : String)
+    
     var path: String {
         switch self {
         case .getCommits(let repository,_):
             return "/repos/\(repository.owner)/\(repository.repositoryName)/commits"
-        }
-    }
-    
-    var method: HTTPMethod {
-        switch self {
-            case .getCommits(_,_):
-                return .get
+        case .getFiles(let repository, let sha):
+            return "/repos/\(repository.owner)/\(repository.repositoryName)/commits/\(sha)"
         }
     }
     
@@ -32,6 +28,8 @@ enum GitHubRequest : APIRequest {
         switch self {
             case .getCommits(_, let query):
                 return query.parameters
+            default:
+                return defaultParameters
         }
     }
 }

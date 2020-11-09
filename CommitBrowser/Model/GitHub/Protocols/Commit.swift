@@ -16,6 +16,7 @@ protocol Commit : CustomStringConvertible {
     var message : String { get }
     var authorImageUrl : URL? { get }
     var date : Date { get }
+    var url : URL { get }
 }
 
 extension Commit {
@@ -25,6 +26,7 @@ extension Commit {
         hash : \(hash)
         date: \(date.description(with: Locale.current))
         message : \(message)
+        url : \(url.absoluteString)
         authorName : \(authorName)
         email : \(email)
         authorImageUrl : \(authorImageUrl?.absoluteString ?? "nil")

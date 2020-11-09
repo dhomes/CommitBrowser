@@ -26,7 +26,16 @@ class CommitsRootCoordinator : Coordinator, ControllerContainingCoordinator {
         let repository = Repository.defaultRepository
         let model = GitHubCommitsRootViewModel(service, repository: repository, pageSize: 10)
         commitsRootController.model = model
+        commitsRootController.onCommitSelected = { [weak self] commit in
+            self?.goToCommit(commit)
+        }
         navigationController.pushViewController(commitsRootController, animated: false)
+    }
+    
+    func goToCommit(_ commit : Commit) {
+        let commitDetailCoordinator = CommitDetailCoordinator(commit)
+        pushCoordinator(commitDetailCoordinator)
+        navigationController.pushViewController(commitDetailCoordinator.viewController, animated: true)
     }
 
 }

@@ -16,6 +16,8 @@ struct GitHubCommit : Commit {
     private(set) var message: String
     private(set) var authorImageUrl: URL?
     private(set) var date: Date
+    private(set) var url : URL
+    private(set) var files : [File]?
     
     /// JSON parsing keys
     private struct Keys {
@@ -27,6 +29,7 @@ struct GitHubCommit : Commit {
         static let message = "message"
         static let date = "date"
         static let avatarUrl = "avatar_url"
+        static let url = "url"
     }
     
     /// Failable initializer from JSON
@@ -38,6 +41,7 @@ struct GitHubCommit : Commit {
         guard let name = author[Keys.name].string else { return nil }
         guard let email = author[Keys.email].string else { return nil }
         guard let message = commit[Keys.message].string else { return nil }
+        guard let url = URL(string: json["url"].stringValue) else { return nil }
         let dateString = author[Keys.date].stringValue
         let formatter = ISO8601DateFormatter()
         guard let date = formatter.date(from: dateString) else { return nil }
@@ -50,7 +54,11 @@ struct GitHubCommit : Commit {
         self.authorImageUrl = avatarUrl
         self.date = date
         self.message = message
-        
+        self.url = url
+    }
+    
+    mutating func setFiles(_ files : [File]) {
+        self.files = files
     }
 }
 

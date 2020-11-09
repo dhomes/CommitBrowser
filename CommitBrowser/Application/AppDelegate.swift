@@ -35,7 +35,7 @@ private extension AppDelegate {
         let titleTextColor = appearance.navigationTitleTextColor
         coloredAppearance.titleTextAttributes = [.foregroundColor: titleTextColor]
         coloredAppearance.largeTitleTextAttributes = [.foregroundColor: titleTextColor]
-               
+        UINavigationBar.appearance().tintColor = .white
         UINavigationBar.appearance().standardAppearance = coloredAppearance
         UINavigationBar.appearance().scrollEdgeAppearance = coloredAppearance
 

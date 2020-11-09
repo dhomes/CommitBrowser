@@ -19,6 +19,7 @@ class CommitsRootController: UITableViewController, StoryboardInstantiable {
             }
         }
     }
+    var onCommitSelected : ((Commit) -> ())? = nil
     
     let refresh = UIRefreshControl()
     
@@ -80,6 +81,8 @@ extension CommitsRootController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        guard let commit = model.commitAt(indexPath) else { return }
+        self.onCommitSelected?(commit)
     }
     
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
@@ -89,5 +92,8 @@ extension CommitsRootController {
             }
         }
     }
+    
+
+    
 }
 
