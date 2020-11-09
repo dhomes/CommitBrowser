@@ -66,6 +66,9 @@
 		B9F0EA632559611C00AAFDBD /* PatchDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F0EA622559611C00AAFDBD /* PatchDetail.storyboard */; };
 		B9F0EA682559616A00AAFDBD /* PatchDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0EA672559616A00AAFDBD /* PatchDetailController.swift */; };
 		B9F0EA6D255963D400AAFDBD /* PatchDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0EA6C255963D400AAFDBD /* PatchDetailCoordinator.swift */; };
+		B9F0EA752559823C00AAFDBD /* Files.json in Resources */ = {isa = PBXBuildFile; fileRef = B9F0EA742559823C00AAFDBD /* Files.json */; };
+		B9F0EA7A255982C200AAFDBD /* CommitDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0EA79255982C200AAFDBD /* CommitDetailsViewModelTests.swift */; };
+		B9F0EA822559834B00AAFDBD /* MockCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0EA812559834B00AAFDBD /* MockCommit.swift */; };
 		B9F63F0325569D1D00919035 /* CommitsRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F63F0225569D1D00919035 /* CommitsRootViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -150,6 +153,9 @@
 		B9F0EA622559611C00AAFDBD /* PatchDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PatchDetail.storyboard; sourceTree = "<group>"; };
 		B9F0EA672559616A00AAFDBD /* PatchDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDetailController.swift; sourceTree = "<group>"; };
 		B9F0EA6C255963D400AAFDBD /* PatchDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDetailCoordinator.swift; sourceTree = "<group>"; };
+		B9F0EA742559823C00AAFDBD /* Files.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Files.json; sourceTree = "<group>"; };
+		B9F0EA79255982C200AAFDBD /* CommitDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		B9F0EA812559834B00AAFDBD /* MockCommit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCommit.swift; sourceTree = "<group>"; };
 		B9F63F0225569D1D00919035 /* CommitsRootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsRootViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +204,7 @@
 				B968076E2555E8F400809CD7 /* Commit.json */,
 				B96807732555F00400809CD7 /* Commits.json */,
 				B9B8376A25589D8800E9D761 /* CurrentCommits.json */,
+				B9F0EA742559823C00AAFDBD /* Files.json */,
 			);
 			path = jsons;
 			sourceTree = "<group>";
@@ -272,11 +279,12 @@
 		B97A0D942555631B00840157 /* CommitBrowserTests */ = {
 			isa = PBXGroup;
 			children = (
-				B9B8377F2558AB4200E9D761 /* Mocks */,
+				B9F0EA79255982C200AAFDBD /* CommitDetailsViewModelTests.swift */,
 				B9B8376F25589DF000E9D761 /* CommitsViewModelTests.swift */,
 				B97A0D972555631B00840157 /* Info.plist */,
 				B96806F32555BF2400809CD7 /* JsonParsingTests.swift */,
 				B968074D2555DE5B00809CD7 /* jsons */,
+				B9B8377F2558AB4200E9D761 /* Mocks */,
 				B96807B125561A3E00809CD7 /* NetworkServiceTests.swift */,
 			);
 			path = CommitBrowserTests;
@@ -409,6 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				B9B8377425589E1600E9D761 /* MockNetworkService.swift */,
+				B9F0EA812559834B00AAFDBD /* MockCommit.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -572,6 +581,7 @@
 			files = (
 				B968076F2555E8F400809CD7 /* Commit.json in Resources */,
 				B96807742555F00400809CD7 /* Commits.json in Resources */,
+				B9F0EA752559823C00AAFDBD /* Files.json in Resources */,
 				B96807532555DE5B00809CD7 /* SampleUser.json in Resources */,
 				B96807512555DE5B00809CD7 /* CommitData.json in Resources */,
 				B9B8376B25589D8800E9D761 /* CurrentCommits.json in Resources */,
@@ -637,6 +647,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F0EA822559834B00AAFDBD /* MockCommit.swift in Sources */,
+				B9F0EA7A255982C200AAFDBD /* CommitDetailsViewModelTests.swift in Sources */,
 				B9B8377525589E1600E9D761 /* MockNetworkService.swift in Sources */,
 				B9B8377025589DF000E9D761 /* CommitsViewModelTests.swift in Sources */,
 				B96807B225561A3E00809CD7 /* NetworkServiceTests.swift in Sources */,

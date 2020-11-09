@@ -19,7 +19,7 @@ class CommitDetailCoordinator : Coordinator, ControllerContainingCoordinator {
     
     override func start() {
         let controller = CommitDetailViewController.instantiate()
-        let model = GitHubCommitDetailsViewmodel(GitHubNetworkService(), commit: commit)
+        let model = GitHubCommitDetailsViewModel(GitHubNetworkService(), commit: commit)
         controller.model = model
         controller.didFinish = { [weak self] in
             self?.didFinish?(self)

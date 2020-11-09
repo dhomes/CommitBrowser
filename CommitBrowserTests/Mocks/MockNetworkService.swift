@@ -9,10 +9,25 @@ import Foundation
 @testable import CommitBrowser
 
 class MockNetworkService : NetworkService {
+    func getFiles(for commit: Commit, completion: ((Result<[File], Error>) -> ())?) {
+        guard let url = Bundle.init(for: type(of: self)).url(forResource: "Files", withExtension: "json") else {
+            completion?(.failure(NetworkError.other(message: "Could not parse Files json file")))
+            return
+        }
+        do {
+            let data = try Data(contentsOf: url)
+            let json = try JSON(data: data)
+            let files = json.arrayValue.compactMap { GitHubFile(json: $0) }
+            completion?(.success(files))
+        } catch {
+            completion?(.failure(error))
+        }
+    }
+    
     
     func getCommits(with request: APIRequest, completion: ((Result<[Commit], Error>) -> ())?) {
         guard let url = Bundle.init(for: type(of: self)).url(forResource: "CurrentCommits", withExtension: "json") else {
-            completion?(.failure(NetworkError.other(message: "Could not parse json file")))
+            completion?(.failure(NetworkError.other(message: "Could not parse Commits json file")))
             return
         }
         

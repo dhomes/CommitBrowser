@@ -7,7 +7,7 @@
 
 import Foundation
 
-class GitHubCommitDetailsViewmodel <T : NetworkService>: CommitDetailsViewModel {
+class GitHubCommitDetailsViewModel <T : NetworkService>: CommitDetailsViewModel {
     var commit: Commit
     var sections: Int { return 2 }
     var files: Observable<[File]> = Observable([File]())
