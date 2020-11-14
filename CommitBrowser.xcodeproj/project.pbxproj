@@ -12,6 +12,54 @@
 		B937EB24255700FC00DC6948 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB23255700FC00DC6948 /* Repository.swift */; };
 		B937EB292557011800DC6948 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB282557011800DC6948 /* Query.swift */; };
 		B937EB4225570C9400DC6948 /* ReusableNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB4125570C9400DC6948 /* ReusableNib.swift */; };
+		B93E7533255F757100D94F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93E7532255F757100D94F90 /* AppDelegate.swift */; };
+		B93E7535255F757100D94F90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93E7534255F757100D94F90 /* SceneDelegate.swift */; };
+		B93E7537255F757100D94F90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93E7536255F757100D94F90 /* ContentView.swift */; };
+		B93E7539255F757300D94F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93E7538255F757300D94F90 /* Assets.xcassets */; };
+		B93E753C255F757300D94F90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93E753B255F757300D94F90 /* Preview Assets.xcassets */; };
+		B93E753F255F757300D94F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93E753D255F757300D94F90 /* LaunchScreen.storyboard */; };
+		B93E754A255F757300D94F90 /* RXCommitBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93E7549255F757300D94F90 /* RXCommitBrowserTests.swift */; };
+		B93E7575255F75D300D94F90 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D518A42556BBCA00600665 /* SwiftyJSON.swift */; };
+		B93E757C255F75DE00D94F90 /* GitHubFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8378825593BC400E9D761 /* GitHubFile.swift */; };
+		B93E757D255F75DE00D94F90 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8378325593A2700E9D761 /* File.swift */; };
+		B93E757E255F75DE00D94F90 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D518962556B07D00600665 /* Commit.swift */; };
+		B93E757F255F75DE00D94F90 /* GitHubCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D518A92556BC0200600665 /* GitHubCommit.swift */; };
+		B93E7587255F764100D94F90 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB282557011800DC6948 /* Query.swift */; };
+		B93E7588255F764100D94F90 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB23255700FC00DC6948 /* Repository.swift */; };
+		B93E758F255F764600D94F90 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96807A92556193400809CD7 /* NetworkService.swift */; };
+		B93E7590255F764600D94F90 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B968078E2556047500809CD7 /* APIRequest.swift */; };
+		B93E75A8255F773000D94F90 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = B93E75A7255F773000D94F90 /* Nuke */; };
+		B93E75AA255F773000D94F90 /* Just in Frameworks */ = {isa = PBXBuildFile; productRef = B93E75A9255F773000D94F90 /* Just */; };
+		B93E75B7255F78EF00D94F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D872555631B00840157 /* Assets.xcassets */; };
+		B93E75CB255F79FC00D94F90 /* CommitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93E75CA255F79FC00D94F90 /* CommitView.swift */; };
+		B93E75D3255F7BC100D94F90 /* MockCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0EA812559834B00AAFDBD /* MockCommit.swift */; };
+		B93E75D4255F7BC100D94F90 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8377425589E1600E9D761 /* MockNetworkService.swift */; };
+		B93E75DB255F7BC400D94F90 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8377425589E1600E9D761 /* MockNetworkService.swift */; };
+		B93E75E2255F7BC500D94F90 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8377425589E1600E9D761 /* MockNetworkService.swift */; };
+		B93E75E9255F7BF800D94F90 /* MockCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0EA812559834B00AAFDBD /* MockCommit.swift */; };
+		B93E75F0255F7BF800D94F90 /* MockCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0EA812559834B00AAFDBD /* MockCommit.swift */; };
+		B93E75F7255F7D1F00D94F90 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96807A1255618F600809CD7 /* NetworkError.swift */; };
+		B93E75FE255F7F1B00D94F90 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96807A1255618F600809CD7 /* NetworkError.swift */; };
+		B93E75FF255F7F1B00D94F90 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB23255700FC00DC6948 /* Repository.swift */; };
+		B93E7600255F7F1B00D94F90 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB282557011800DC6948 /* Query.swift */; };
+		B93E7607255F7F1C00D94F90 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96807A1255618F600809CD7 /* NetworkError.swift */; };
+		B93E7608255F7F1C00D94F90 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB23255700FC00DC6948 /* Repository.swift */; };
+		B93E7609255F7F1C00D94F90 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB282557011800DC6948 /* Query.swift */; };
+		B93E7610255F7F2200D94F90 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B968078E2556047500809CD7 /* APIRequest.swift */; };
+		B93E7611255F7F2200D94F90 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96807A92556193400809CD7 /* NetworkService.swift */; };
+		B93E7618255F7F2300D94F90 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B968078E2556047500809CD7 /* APIRequest.swift */; };
+		B93E7619255F7F2300D94F90 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96807A92556193400809CD7 /* NetworkService.swift */; };
+		B9421376255F898B00422FCE /* SwURL in Frameworks */ = {isa = PBXBuildFile; productRef = B9421375255F898B00422FCE /* SwURL */; };
+		B942137D255F90B600422FCE /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8372625588D2300E9D761 /* Appearance.swift */; };
+		B942137E255F90B600422FCE /* CommitAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8372B2558910B00E9D761 /* CommitAppearance.swift */; };
+		B942138D255F93FD00422FCE /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B942138C255F93FD00422FCE /* Date+Extensions.swift */; };
+		B94213A3255F94D600422FCE /* CommitsRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94213A2255F94D600422FCE /* CommitsRoot.swift */; };
+		B94213B2255F9AAD00422FCE /* AppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94213B1255F9AAD00422FCE /* AppDelegate+Extension.swift */; };
+		B94213C1255F9C4F00422FCE /* RxNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94213C0255F9C4F00422FCE /* RxNetworkService.swift */; };
+		B94213CA255F9DD000422FCE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B94213C9255F9DD000422FCE /* Alamofire */; };
+		B94213D2255FA48400422FCE /* CommitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94213D1255FA48400422FCE /* CommitStore.swift */; };
+		B94213D9255FA78900422FCE /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96807892555FEBD00809CD7 /* GitHubRequest.swift */; };
+		B94213E1255FC54F00422FCE /* FetchDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8375625589C8E00E9D761 /* FetchDirection.swift */; };
 		B96806F42555BF2400809CD7 /* JsonParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96806F32555BF2400809CD7 /* JsonParsingTests.swift */; };
 		B96807512555DE5B00809CD7 /* CommitData.json in Resources */ = {isa = PBXBuildFile; fileRef = B968074E2555DE5B00809CD7 /* CommitData.json */; };
 		B96807522555DE5B00809CD7 /* UserSummary.json in Resources */ = {isa = PBXBuildFile; fileRef = B968074F2555DE5B00809CD7 /* UserSummary.json */; };
@@ -29,7 +77,6 @@
 		B97A0D812555631900840157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0D802555631900840157 /* SceneDelegate.swift */; };
 		B97A0D882555631B00840157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D872555631B00840157 /* Assets.xcassets */; };
 		B97A0D8B2555631B00840157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D892555631B00840157 /* LaunchScreen.storyboard */; };
-		B97A0DA12555631B00840157 /* CommitBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0DA02555631B00840157 /* CommitBrowserUITests.swift */; };
 		B97A0DB62555638E00840157 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = B97A0DB52555638E00840157 /* Nuke */; };
 		B97A0DBC255563A400840157 /* Just in Frameworks */ = {isa = PBXBuildFile; productRef = B97A0DBB255563A400840157 /* Just */; };
 		B97A0DD52555660B00840157 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0DD42555660B00840157 /* StoryboardInstantiable.swift */; };
@@ -73,6 +120,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B93E7546255F757300D94F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B97A0D732555631900840157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93E752F255F757100D94F90;
+			remoteInfo = RXCommitBrowser;
+		};
+		B93E7551255F757300D94F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B97A0D732555631900840157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93E752F255F757100D94F90;
+			remoteInfo = RXCommitBrowser;
+		};
 		B97A0D922555631B00840157 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B97A0D732555631900840157 /* Project object */;
@@ -95,6 +156,24 @@
 		B937EB23255700FC00DC6948 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		B937EB282557011800DC6948 /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
 		B937EB4125570C9400DC6948 /* ReusableNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableNib.swift; sourceTree = "<group>"; };
+		B93E7530255F757100D94F90 /* RXCommitBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXCommitBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93E7532255F757100D94F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B93E7534255F757100D94F90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B93E7536255F757100D94F90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B93E7538255F757300D94F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B93E753B255F757300D94F90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B93E753E255F757300D94F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B93E7540255F757300D94F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93E7545255F757300D94F90 /* RXCommitBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RXCommitBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93E7549255F757300D94F90 /* RXCommitBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXCommitBrowserTests.swift; sourceTree = "<group>"; };
+		B93E754B255F757300D94F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93E7550255F757300D94F90 /* RXCommitBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RXCommitBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93E75CA255F79FC00D94F90 /* CommitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitView.swift; sourceTree = "<group>"; };
+		B942138C255F93FD00422FCE /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		B94213A2255F94D600422FCE /* CommitsRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsRoot.swift; sourceTree = "<group>"; };
+		B94213B1255F9AAD00422FCE /* AppDelegate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extension.swift"; sourceTree = "<group>"; };
+		B94213C0255F9C4F00422FCE /* RxNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxNetworkService.swift; sourceTree = "<group>"; };
+		B94213D1255FA48400422FCE /* CommitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitStore.swift; sourceTree = "<group>"; };
 		B96806F32555BF2400809CD7 /* JsonParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsingTests.swift; sourceTree = "<group>"; };
 		B968074E2555DE5B00809CD7 /* CommitData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CommitData.json; sourceTree = "<group>"; };
 		B968074F2555DE5B00809CD7 /* UserSummary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserSummary.json; sourceTree = "<group>"; };
@@ -117,8 +196,6 @@
 		B97A0D912555631B00840157 /* CommitBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommitBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97A0D972555631B00840157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97A0D9C2555631B00840157 /* CommitBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommitBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B97A0DA02555631B00840157 /* CommitBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitBrowserUITests.swift; sourceTree = "<group>"; };
-		B97A0DA22555631B00840157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97A0DD42555660B00840157 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		B97A0DDC255566AE00840157 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		B97A0DEA2555693C00840157 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -160,6 +237,31 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B93E752D255F757100D94F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93E75AA255F773000D94F90 /* Just in Frameworks */,
+				B94213CA255F9DD000422FCE /* Alamofire in Frameworks */,
+				B9421376255F898B00422FCE /* SwURL in Frameworks */,
+				B93E75A8255F773000D94F90 /* Nuke in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93E7542255F757300D94F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93E754D255F757300D94F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B97A0D782555631900840157 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,6 +288,173 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B93E7531255F757100D94F90 /* RXCommitBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B93E7532255F757100D94F90 /* AppDelegate.swift */,
+				B942138B255F93E400422FCE /* Extensions */,
+				B93E7637255F838100D94F90 /* Helpers */,
+				B93E75B4255F787000D94F90 /* Model */,
+				B94213BF255F9C3C00422FCE /* NetworkService */,
+				B93E753A255F757300D94F90 /* Preview Content */,
+				B93E75B5255F78B300D94F90 /* Resources */,
+				B93E7534255F757100D94F90 /* SceneDelegate.swift */,
+				B93E75AD255F786200D94F90 /* View */,
+				B93E75AC255F785B00D94F90 /* ViewModel */,
+			);
+			path = RXCommitBrowser;
+			sourceTree = "<group>";
+		};
+		B93E753A255F757300D94F90 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B93E753B255F757300D94F90 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B93E7548255F757300D94F90 /* RXCommitBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				B93E7549255F757300D94F90 /* RXCommitBrowserTests.swift */,
+				B93E754B255F757300D94F90 /* Info.plist */,
+			);
+			path = RXCommitBrowserTests;
+			sourceTree = "<group>";
+		};
+		B93E756C255F758300D94F90 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B94213E8255FC55600422FCE /* Enumerators */,
+				B94213B0255F9A9600422FCE /* Extensions */,
+				B9B8377F2558AB4200E9D761 /* Mocks */,
+				B93E75B6255F78DD00D94F90 /* Resources */,
+				B93E7574255F75BE00D94F90 /* Helpers */,
+				B93E7573255F75A200D94F90 /* Model */,
+				B93E7586255F762900D94F90 /* Networking */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B93E7573255F75A200D94F90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B96807C6255697D800809CD7 /* GitHub */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B93E7574255F75BE00D94F90 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B9B8372625588D2300E9D761 /* Appearance.swift */,
+				B9B8372B2558910B00E9D761 /* CommitAppearance.swift */,
+				B9D518A42556BBCA00600665 /* SwiftyJSON.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B93E7586255F762900D94F90 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B96807892555FEBD00809CD7 /* GitHubRequest.swift */,
+				B937EB282557011800DC6948 /* Query.swift */,
+				B937EB23255700FC00DC6948 /* Repository.swift */,
+				B96807A1255618F600809CD7 /* NetworkError.swift */,
+				B96807B925561E7B00809CD7 /* Protocols */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B93E75A6255F773000D94F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B93E75AC255F785B00D94F90 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B93E75AD255F786200D94F90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B93E75CA255F79FC00D94F90 /* CommitView.swift */,
+				B94213A2255F94D600422FCE /* CommitsRoot.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B93E75B4255F787000D94F90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B94213D1255FA48400422FCE /* CommitStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B93E75B5255F78B300D94F90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B93E7540255F757300D94F90 /* Info.plist */,
+				B93E7536255F757100D94F90 /* ContentView.swift */,
+				B93E7538255F757300D94F90 /* Assets.xcassets */,
+				B93E753D255F757300D94F90 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B93E75B6255F78DD00D94F90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B97A0D872555631B00840157 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B93E7637255F838100D94F90 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B942138B255F93E400422FCE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B942138C255F93FD00422FCE /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B94213B0255F9A9600422FCE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B94213B1255F9AAD00422FCE /* AppDelegate+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B94213BF255F9C3C00422FCE /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				B94213C0255F9C4F00422FCE /* RxNetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		B94213E8255FC55600422FCE /* Enumerators */ = {
+			isa = PBXGroup;
+			children = (
+				B9B8375625589C8E00E9D761 /* FetchDirection.swift */,
+			);
+			path = Enumerators;
+			sourceTree = "<group>";
+		};
 		B96806E52555B9E500809CD7 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,10 +511,13 @@
 			children = (
 				B97A0E03255573F900840157 /* LICENSE */,
 				B97A0E02255573F900840157 /* README.md */,
+				B93E756C255F758300D94F90 /* Common */,
 				B97A0D7D2555631900840157 /* CommitBrowser */,
 				B97A0D942555631B00840157 /* CommitBrowserTests */,
-				B97A0D9F2555631B00840157 /* CommitBrowserUITests */,
+				B93E7531255F757100D94F90 /* RXCommitBrowser */,
+				B93E7548255F757300D94F90 /* RXCommitBrowserTests */,
 				B97A0D7C2555631900840157 /* Products */,
+				B93E75A6255F773000D94F90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -255,6 +527,9 @@
 				B97A0D7B2555631900840157 /* CommitBrowser.app */,
 				B97A0D912555631B00840157 /* CommitBrowserTests.xctest */,
 				B97A0D9C2555631B00840157 /* CommitBrowserUITests.xctest */,
+				B93E7530255F757100D94F90 /* RXCommitBrowser.app */,
+				B93E7545255F757300D94F90 /* RXCommitBrowserTests.xctest */,
+				B93E7550255F757300D94F90 /* RXCommitBrowserUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,8 +537,8 @@
 		B97A0D7D2555631900840157 /* CommitBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				B9B8375525589C7800E9D761 /* Enumerators */,
 				B97A0DC62555641100840157 /* Application */,
+				B9B8375525589C7800E9D761 /* Enumerators */,
 				B984C4E32557485500EF4C4F /* Extensions */,
 				B97A0DD22555651F00840157 /* Helpers */,
 				B97A0DCC2555648600840157 /* Model */,
@@ -284,19 +559,9 @@
 				B97A0D972555631B00840157 /* Info.plist */,
 				B96806F32555BF2400809CD7 /* JsonParsingTests.swift */,
 				B968074D2555DE5B00809CD7 /* jsons */,
-				B9B8377F2558AB4200E9D761 /* Mocks */,
 				B96807B125561A3E00809CD7 /* NetworkServiceTests.swift */,
 			);
 			path = CommitBrowserTests;
-			sourceTree = "<group>";
-		};
-		B97A0D9F2555631B00840157 /* CommitBrowserUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B97A0DA02555631B00840157 /* CommitBrowserUITests.swift */,
-				B97A0DA22555631B00840157 /* Info.plist */,
-			);
-			path = CommitBrowserUITests;
 			sourceTree = "<group>";
 		};
 		B97A0DC62555641100840157 /* Application */ = {
@@ -312,7 +577,6 @@
 			isa = PBXGroup;
 			children = (
 				B97A0D8C2555631B00840157 /* Info.plist */,
-				B97A0D872555631B00840157 /* Assets.xcassets */,
 				B97A0D892555631B00840157 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
@@ -321,9 +585,9 @@
 		B97A0DCB2555646600840157 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				B9F0EA612559610000AAFDBD /* PatchDetail */,
 				B9B837952559455D00E9D761 /* CommitsDetail */,
 				B97A0DEF25556E0C00840157 /* CommitsRoot */,
+				B9F0EA612559610000AAFDBD /* PatchDetail */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -331,7 +595,6 @@
 		B97A0DCC2555648600840157 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B96807C6255697D800809CD7 /* GitHub */,
 				B97A0DEA2555693C00840157 /* Coordinator.swift */,
 				B96807C7255697FA00809CD7 /* Observable.swift */,
 			);
@@ -354,11 +617,8 @@
 		B97A0DD22555651F00840157 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				B9B8372625588D2300E9D761 /* Appearance.swift */,
-				B9B8372B2558910B00E9D761 /* CommitAppearance.swift */,
 				B937EB4125570C9400DC6948 /* ReusableNib.swift */,
 				B97A0DD42555660B00840157 /* StoryboardInstantiable.swift */,
-				B9D518A42556BBCA00600665 /* SwiftyJSON.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -366,12 +626,7 @@
 		B97A0DD32555654100840157 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				B96807B925561E7B00809CD7 /* Protocols */,
 				B9680796255604B100809CD7 /* GitHubNetworkService.swift */,
-				B96807892555FEBD00809CD7 /* GitHubRequest.swift */,
-				B96807A1255618F600809CD7 /* NetworkError.swift */,
-				B937EB282557011800DC6948 /* Query.swift */,
-				B937EB23255700FC00DC6948 /* Repository.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -389,8 +644,8 @@
 		B984C4E32557485500EF4C4F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B984C4E42557486C00EF4C4F /* UIVIewController+Extensions.swift */,
 				B9B83748255894A700E9D761 /* UIFont+Extensions.swift */,
+				B984C4E42557486C00EF4C4F /* UIVIewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -399,7 +654,6 @@
 			isa = PBXGroup;
 			children = (
 				B97A0DDC255566AE00840157 /* Storyboards.swift */,
-				B9B8375625589C8E00E9D761 /* FetchDirection.swift */,
 			);
 			path = Enumerators;
 			sourceTree = "<group>";
@@ -454,6 +708,65 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B93E752F255F757100D94F90 /* RXCommitBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93E755D255F757300D94F90 /* Build configuration list for PBXNativeTarget "RXCommitBrowser" */;
+			buildPhases = (
+				B93E752C255F757100D94F90 /* Sources */,
+				B93E752D255F757100D94F90 /* Frameworks */,
+				B93E752E255F757100D94F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RXCommitBrowser;
+			packageProductDependencies = (
+				B93E75A7255F773000D94F90 /* Nuke */,
+				B93E75A9255F773000D94F90 /* Just */,
+				B9421375255F898B00422FCE /* SwURL */,
+				B94213C9255F9DD000422FCE /* Alamofire */,
+			);
+			productName = RXCommitBrowser;
+			productReference = B93E7530255F757100D94F90 /* RXCommitBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B93E7544255F757300D94F90 /* RXCommitBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93E755E255F757300D94F90 /* Build configuration list for PBXNativeTarget "RXCommitBrowserTests" */;
+			buildPhases = (
+				B93E7541255F757300D94F90 /* Sources */,
+				B93E7542255F757300D94F90 /* Frameworks */,
+				B93E7543255F757300D94F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B93E7547255F757300D94F90 /* PBXTargetDependency */,
+			);
+			name = RXCommitBrowserTests;
+			productName = RXCommitBrowserTests;
+			productReference = B93E7545255F757300D94F90 /* RXCommitBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B93E754F255F757300D94F90 /* RXCommitBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93E755F255F757300D94F90 /* Build configuration list for PBXNativeTarget "RXCommitBrowserUITests" */;
+			buildPhases = (
+				B93E754C255F757300D94F90 /* Sources */,
+				B93E754D255F757300D94F90 /* Frameworks */,
+				B93E754E255F757300D94F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B93E7552255F757300D94F90 /* PBXTargetDependency */,
+			);
+			name = RXCommitBrowserUITests;
+			productName = RXCommitBrowserUITests;
+			productReference = B93E7550255F757300D94F90 /* RXCommitBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		B97A0D7A2555631900840157 /* CommitBrowser */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B97A0DA52555631B00840157 /* Build configuration list for PBXNativeTarget "CommitBrowser" */;
@@ -517,9 +830,20 @@
 		B97A0D732555631900840157 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1210;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
+					B93E752F255F757100D94F90 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B93E7544255F757300D94F90 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B93E752F255F757100D94F90;
+					};
+					B93E754F255F757300D94F90 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B93E752F255F757100D94F90;
+					};
 					B97A0D7A2555631900840157 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -545,6 +869,9 @@
 			packageReferences = (
 				B97A0DB42555638E00840157 /* XCRemoteSwiftPackageReference "Nuke" */,
 				B97A0DBA255563A400840157 /* XCRemoteSwiftPackageReference "Just" */,
+				B93E759D255F771400D94F90 /* XCRemoteSwiftPackageReference "AFNetworking" */,
+				B9421374255F898B00422FCE /* XCRemoteSwiftPackageReference "SwURL" */,
+				B94213C8255F9DD000422FCE /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = B97A0D7C2555631900840157 /* Products */;
 			projectDirPath = "";
@@ -553,11 +880,39 @@
 				B97A0D7A2555631900840157 /* CommitBrowser */,
 				B97A0D902555631B00840157 /* CommitBrowserTests */,
 				B97A0D9B2555631B00840157 /* CommitBrowserUITests */,
+				B93E752F255F757100D94F90 /* RXCommitBrowser */,
+				B93E7544255F757300D94F90 /* RXCommitBrowserTests */,
+				B93E754F255F757300D94F90 /* RXCommitBrowserUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B93E752E255F757100D94F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93E753F255F757300D94F90 /* LaunchScreen.storyboard in Resources */,
+				B93E753C255F757300D94F90 /* Preview Assets.xcassets in Resources */,
+				B93E75B7255F78EF00D94F90 /* Assets.xcassets in Resources */,
+				B93E7539255F757300D94F90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93E7543255F757300D94F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93E754E255F757300D94F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B97A0D792555631900840157 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -599,6 +954,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B93E752C255F757100D94F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93E758F255F764600D94F90 /* NetworkService.swift in Sources */,
+				B93E75F7255F7D1F00D94F90 /* NetworkError.swift in Sources */,
+				B93E757C255F75DE00D94F90 /* GitHubFile.swift in Sources */,
+				B93E7587255F764100D94F90 /* Query.swift in Sources */,
+				B93E757F255F75DE00D94F90 /* GitHubCommit.swift in Sources */,
+				B942137D255F90B600422FCE /* Appearance.swift in Sources */,
+				B93E757D255F75DE00D94F90 /* File.swift in Sources */,
+				B93E757E255F75DE00D94F90 /* Commit.swift in Sources */,
+				B93E75CB255F79FC00D94F90 /* CommitView.swift in Sources */,
+				B942138D255F93FD00422FCE /* Date+Extensions.swift in Sources */,
+				B94213D9255FA78900422FCE /* GitHubRequest.swift in Sources */,
+				B94213D2255FA48400422FCE /* CommitStore.swift in Sources */,
+				B94213B2255F9AAD00422FCE /* AppDelegate+Extension.swift in Sources */,
+				B94213E1255FC54F00422FCE /* FetchDirection.swift in Sources */,
+				B93E7533255F757100D94F90 /* AppDelegate.swift in Sources */,
+				B93E75D3255F7BC100D94F90 /* MockCommit.swift in Sources */,
+				B93E7535255F757100D94F90 /* SceneDelegate.swift in Sources */,
+				B942137E255F90B600422FCE /* CommitAppearance.swift in Sources */,
+				B93E7588255F764100D94F90 /* Repository.swift in Sources */,
+				B94213C1255F9C4F00422FCE /* RxNetworkService.swift in Sources */,
+				B93E7537255F757100D94F90 /* ContentView.swift in Sources */,
+				B94213A3255F94D600422FCE /* CommitsRoot.swift in Sources */,
+				B93E75D4255F7BC100D94F90 /* MockNetworkService.swift in Sources */,
+				B93E7590255F764600D94F90 /* APIRequest.swift in Sources */,
+				B93E7575255F75D300D94F90 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93E7541255F757300D94F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93E75E9255F7BF800D94F90 /* MockCommit.swift in Sources */,
+				B93E7618255F7F2300D94F90 /* APIRequest.swift in Sources */,
+				B93E7619255F7F2300D94F90 /* NetworkService.swift in Sources */,
+				B93E7607255F7F1C00D94F90 /* NetworkError.swift in Sources */,
+				B93E7608255F7F1C00D94F90 /* Repository.swift in Sources */,
+				B93E75E2255F7BC500D94F90 /* MockNetworkService.swift in Sources */,
+				B93E7609255F7F1C00D94F90 /* Query.swift in Sources */,
+				B93E754A255F757300D94F90 /* RXCommitBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93E754C255F757300D94F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B97A0D772555631900840157 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -627,6 +1036,8 @@
 				B96807A2255618F600809CD7 /* NetworkError.swift in Sources */,
 				B97A0DDD255566AE00840157 /* Storyboards.swift in Sources */,
 				B9B837A72559467400E9D761 /* CommitDetailsViewModel.swift in Sources */,
+				B93E75F0255F7BF800D94F90 /* MockCommit.swift in Sources */,
+				B93E75DB255F7BC400D94F90 /* MockNetworkService.swift in Sources */,
 				B932D4212559500C0022BBF3 /* FileCell.swift in Sources */,
 				B9B8374E25589C5000E9D761 /* GitHubCommitsRootViewModel.swift in Sources */,
 				B9F0EA682559616A00AAFDBD /* PatchDetailController.swift in Sources */,
@@ -647,11 +1058,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93E7611255F7F2200D94F90 /* NetworkService.swift in Sources */,
 				B9F0EA822559834B00AAFDBD /* MockCommit.swift in Sources */,
+				B93E7600255F7F1B00D94F90 /* Query.swift in Sources */,
+				B93E75FE255F7F1B00D94F90 /* NetworkError.swift in Sources */,
 				B9F0EA7A255982C200AAFDBD /* CommitDetailsViewModelTests.swift in Sources */,
+				B93E75FF255F7F1B00D94F90 /* Repository.swift in Sources */,
 				B9B8377525589E1600E9D761 /* MockNetworkService.swift in Sources */,
 				B9B8377025589DF000E9D761 /* CommitsViewModelTests.swift in Sources */,
 				B96807B225561A3E00809CD7 /* NetworkServiceTests.swift in Sources */,
+				B93E7610255F7F2200D94F90 /* APIRequest.swift in Sources */,
 				B96806F42555BF2400809CD7 /* JsonParsingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -660,13 +1076,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97A0DA12555631B00840157 /* CommitBrowserUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B93E7547255F757300D94F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93E752F255F757100D94F90 /* RXCommitBrowser */;
+			targetProxy = B93E7546255F757300D94F90 /* PBXContainerItemProxy */;
+		};
+		B93E7552255F757300D94F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93E752F255F757100D94F90 /* RXCommitBrowser */;
+			targetProxy = B93E7551255F757300D94F90 /* PBXContainerItemProxy */;
+		};
 		B97A0D932555631B00840157 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B97A0D7A2555631900840157 /* CommitBrowser */;
@@ -680,6 +1105,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B93E753D255F757300D94F90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93E753E255F757300D94F90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		B97A0D892555631B00840157 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -691,6 +1124,136 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B93E7557255F757300D94F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RXCommitBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RXCommitBrowser/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.RXCommitBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B93E7558255F757300D94F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RXCommitBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RXCommitBrowser/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.RXCommitBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B93E7559255F757300D94F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				INFOPLIST_FILE = RXCommitBrowserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.RXCommitBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RXCommitBrowser.app/RXCommitBrowser";
+			};
+			name = Debug;
+		};
+		B93E755A255F757300D94F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				INFOPLIST_FILE = RXCommitBrowserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.RXCommitBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RXCommitBrowser.app/RXCommitBrowser";
+			};
+			name = Release;
+		};
+		B93E755B255F757300D94F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				INFOPLIST_FILE = RXCommitBrowserUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.RXCommitBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RXCommitBrowser;
+			};
+			name = Debug;
+		};
+		B93E755C255F757300D94F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				INFOPLIST_FILE = RXCommitBrowserUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.RXCommitBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RXCommitBrowser;
+			};
+			name = Release;
+		};
 		B97A0DA32555631B00840157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -934,6 +1497,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B93E755D255F757300D94F90 /* Build configuration list for PBXNativeTarget "RXCommitBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93E7557255F757300D94F90 /* Debug */,
+				B93E7558255F757300D94F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93E755E255F757300D94F90 /* Build configuration list for PBXNativeTarget "RXCommitBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93E7559255F757300D94F90 /* Debug */,
+				B93E755A255F757300D94F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93E755F255F757300D94F90 /* Build configuration list for PBXNativeTarget "RXCommitBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93E755B255F757300D94F90 /* Debug */,
+				B93E755C255F757300D94F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B97A0D762555631900840157 /* Build configuration list for PBXProject "CommitBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -973,6 +1563,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B93E759D255F771400D94F90 /* XCRemoteSwiftPackageReference "AFNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AFNetworking/AFNetworking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		B9421374255F898B00422FCE /* XCRemoteSwiftPackageReference "SwURL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cmtrounce/SwURL";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		B94213C8255F9DD000422FCE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 		B97A0DB42555638E00840157 /* XCRemoteSwiftPackageReference "Nuke" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/kean/Nuke";
@@ -992,6 +1606,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B93E75A7255F773000D94F90 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B97A0DB42555638E00840157 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		B93E75A9255F773000D94F90 /* Just */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B97A0DBA255563A400840157 /* XCRemoteSwiftPackageReference "Just" */;
+			productName = Just;
+		};
+		B9421375255F898B00422FCE /* SwURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9421374255F898B00422FCE /* XCRemoteSwiftPackageReference "SwURL" */;
+			productName = SwURL;
+		};
+		B94213C9255F9DD000422FCE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B94213C8255F9DD000422FCE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		B97A0DB52555638E00840157 /* Nuke */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B97A0DB42555638E00840157 /* XCRemoteSwiftPackageReference "Nuke" */;

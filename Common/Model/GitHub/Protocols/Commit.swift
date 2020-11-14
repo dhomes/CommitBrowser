@@ -32,6 +32,7 @@ extension Commit {
         authorImageUrl : \(authorImageUrl?.absoluteString ?? "nil")
         """
     }
+
 }
 
 

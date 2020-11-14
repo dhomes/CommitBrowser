@@ -2,6 +2,24 @@
   "object": {
     "pins": [
       {
+        "package": "AFNetworking",
+        "repositoryURL": "https://github.com/AFNetworking/AFNetworking",
+        "state": {
+          "branch": null,
+          "revision": "ffae2391ab0c29dc88eb0a58d2f5b2c2c27cadbf",
+          "version": "4.0.1"
+        }
+      },
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "9e0328127dfb801cefe8ac53a13c0c90a7770448",
+          "version": "5.4.0"
+        }
+      },
+      {
         "package": "Just",
         "repositoryURL": "https://github.com/dduan/Just",
         "state": {
@@ -17,6 +35,15 @@
           "branch": null,
           "revision": "a2a56211cd80614e1ac90bf2e76c5329f4f6b3d0",
           "version": "9.1.2"
+        }
+      },
+      {
+        "package": "SwURL",
+        "repositoryURL": "https://github.com/cmtrounce/SwURL",
+        "state": {
+          "branch": null,
+          "revision": "ea349b67d8fd663d0e96e3116280ba1615a83d3d",
+          "version": "0.4.0"
         }
       }
     ]

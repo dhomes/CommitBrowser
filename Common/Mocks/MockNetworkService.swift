@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import CommitBrowser
+
 
 class MockNetworkService : NetworkService {
     func getFiles(for commit: Commit, completion: ((Result<[File], Error>) -> ())?) {

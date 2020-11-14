@@ -6,18 +6,20 @@
 //
 
 import Foundation
-@testable import CommitBrowser
+
 
 struct MockCommit : Commit {
+     
+    
     var authorName: String = "David Homes"
     
     var email: String = "dhomes@gmail.com"
      
     var hash: String = UUID().uuidString
     
-    var message: String = "Just testing"
+    var message: String = "Just testing a faily large commit message for ui layout purposes, this is just a mock message not to be payed attention to"
     
-    var authorImageUrl: URL? = nil
+    var authorImageUrl: URL? = URL(string: "https://avatars2.githubusercontent.com/u/152622?v=4")
     
     var date: Date = Date()
     
