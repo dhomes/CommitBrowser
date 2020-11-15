@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "AFNetworking",
+        "repositoryURL": "https://github.com/AFNetworking/AFNetworking",
+        "state": {
+          "branch": null,
+          "revision": "ffae2391ab0c29dc88eb0a58d2f5b2c2c27cadbf",
+          "version": "4.0.1"
+        }
+      },
+      {
         "package": "Just",
         "repositoryURL": "https://github.com/dduan/Just",
         "state": {
@@ -11,12 +20,30 @@
         }
       },
       {
+        "package": "Mantle",
+        "repositoryURL": "https://github.com/Mantle/Mantle",
+        "state": {
+          "branch": null,
+          "revision": "eb4ad298d81c023bcba20810ceffba695378ded4",
+          "version": "2.1.6"
+        }
+      },
+      {
         "package": "Nuke",
         "repositoryURL": "https://github.com/kean/Nuke",
         "state": {
           "branch": null,
           "revision": "a2a56211cd80614e1ac90bf2e76c5329f4f6b3d0",
           "version": "9.1.2"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage",
+        "state": {
+          "branch": null,
+          "revision": "2c8ed9a2f3ad537dbe9e58e2ec18be361da112aa",
+          "version": "5.9.5"
         }
       }
     ]

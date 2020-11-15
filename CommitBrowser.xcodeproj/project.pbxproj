@@ -28,9 +28,6 @@
 		B97A0D7F2555631900840157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0D7E2555631900840157 /* AppDelegate.swift */; };
 		B97A0D812555631900840157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0D802555631900840157 /* SceneDelegate.swift */; };
 		B97A0D882555631B00840157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D872555631B00840157 /* Assets.xcassets */; };
-		B97A0D8B2555631B00840157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D892555631B00840157 /* LaunchScreen.storyboard */; };
-		B97A0DA12555631B00840157 /* CommitBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0DA02555631B00840157 /* CommitBrowserUITests.swift */; };
-		B97A0DB62555638E00840157 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = B97A0DB52555638E00840157 /* Nuke */; };
 		B97A0DBC255563A400840157 /* Just in Frameworks */ = {isa = PBXBuildFile; productRef = B97A0DBB255563A400840157 /* Just */; };
 		B97A0DD52555660B00840157 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0DD42555660B00840157 /* StoryboardInstantiable.swift */; };
 		B97A0DDD255566AE00840157 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A0DDC255566AE00840157 /* Storyboards.swift */; };
@@ -41,6 +38,25 @@
 		B97A0E04255573F900840157 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B97A0E02255573F900840157 /* README.md */; };
 		B97A0E05255573F900840157 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B97A0E03255573F900840157 /* LICENSE */; };
 		B984C4E52557486C00EF4C4F /* UIVIewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B984C4E42557486C00EF4C4F /* UIVIewController+Extensions.swift */; };
+		B9AC4EB625603A39004D6D11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4EB525603A39004D6D11 /* AppDelegate.m */; };
+		B9AC4EB925603A39004D6D11 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4EB825603A39004D6D11 /* SceneDelegate.m */; };
+		B9AC4EC125603A3A004D6D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AC4EC025603A3A004D6D11 /* Assets.xcassets */; };
+		B9AC4EC425603A3A004D6D11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AC4EC225603A3A004D6D11 /* LaunchScreen.storyboard */; };
+		B9AC4EC725603A3A004D6D11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4EC625603A3A004D6D11 /* main.m */; };
+		B9AC4ED125603A3A004D6D11 /* OCCommitBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4ED025603A3A004D6D11 /* OCCommitBrowserTests.m */; };
+		B9AC4EF925603ACB004D6D11 /* AFNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B9AC4EF825603ACB004D6D11 /* AFNetworking */; };
+		B9AC4EFE25603B57004D6D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D872555631B00840157 /* Assets.xcassets */; };
+		B9AC4F2025603CAC004D6D11 /* OCCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4F1F25603CAC004D6D11 /* OCCoordinator.m */; };
+		B9AC4F3D25604353004D6D11 /* CommitsRootsCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4F3C25604353004D6D11 /* CommitsRootsCoordinator.m */; };
+		B9B5E7E525604B6B00F184E0 /* OCCommitsRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E7E325604B6B00F184E0 /* OCCommitsRootController.m */; };
+		B9B5E7E625604B6B00F184E0 /* OCCommitsRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9B5E7E425604B6B00F184E0 /* OCCommitsRootController.xib */; };
+		B9B5E7EF256051E400F184E0 /* OCCommitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9B5E7EC256051E400F184E0 /* OCCommitCell.xib */; };
+		B9B5E7F0256051E400F184E0 /* OCEmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9B5E7ED256051E400F184E0 /* OCEmptyCell.xib */; };
+		B9B5E7F1256051E400F184E0 /* OCFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9B5E7EE256051E400F184E0 /* OCFileCell.xib */; };
+		B9B5E7F82560521C00F184E0 /* OCCommitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E7F72560521C00F184E0 /* OCCommitCell.m */; };
+		B9B5E80C256053CE00F184E0 /* OCGithubCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E80B256053CE00F184E0 /* OCGithubCommit.m */; };
+		B9B5E8282560581400F184E0 /* Mantle in Frameworks */ = {isa = PBXBuildFile; productRef = B9B5E8272560581400F184E0 /* Mantle */; };
+		B9B5E82F25605E9F00F184E0 /* OCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E82E25605E9F00F184E0 /* OCNetworking.m */; };
 		B9B8372725588D2300E9D761 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8372625588D2300E9D761 /* Appearance.swift */; };
 		B9B8372C2558910B00E9D761 /* CommitAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8372B2558910B00E9D761 /* CommitAppearance.swift */; };
 		B9B83749255894A700E9D761 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B83748255894A700E9D761 /* UIFont+Extensions.swift */; };
@@ -56,6 +72,7 @@
 		B9B837A12559461600E9D761 /* CommitDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B837A02559461600E9D761 /* CommitDetailViewController.swift */; };
 		B9B837A72559467400E9D761 /* CommitDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B837A62559467400E9D761 /* CommitDetailsViewModel.swift */; };
 		B9B837AC2559474C00E9D761 /* GitHubCommitDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B837AB2559474C00E9D761 /* GitHubCommitDetailsViewModel.swift */; };
+		B9B96BCC2561128900989BA8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B9B96BCB2561128900989BA8 /* SDWebImage */; };
 		B9CF88AC255710E5009416B8 /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF88AA255710E5009416B8 /* EmptyCell.swift */; };
 		B9CF88AD255710E5009416B8 /* EmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CF88AB255710E5009416B8 /* EmptyCell.xib */; };
 		B9CF88B3255712FC009416B8 /* CommitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF88B1255712FC009416B8 /* CommitCell.swift */; };
@@ -70,6 +87,7 @@
 		B9F0EA7A255982C200AAFDBD /* CommitDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0EA79255982C200AAFDBD /* CommitDetailsViewModelTests.swift */; };
 		B9F0EA822559834B00AAFDBD /* MockCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0EA812559834B00AAFDBD /* MockCommit.swift */; };
 		B9F63F0325569D1D00919035 /* CommitsRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F63F0225569D1D00919035 /* CommitsRootViewModel.swift */; };
+		B9FDCB9025610BA000877C85 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = B9FDCB8F25610BA000877C85 /* Nuke */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,12 +98,12 @@
 			remoteGlobalIDString = B97A0D7A2555631900840157;
 			remoteInfo = CommitBrowser;
 		};
-		B97A0D9D2555631B00840157 /* PBXContainerItemProxy */ = {
+		B9AC4ECD25603A3A004D6D11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B97A0D732555631900840157 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B97A0D7A2555631900840157;
-			remoteInfo = CommitBrowser;
+			remoteGlobalIDString = B9AC4EB125603A39004D6D11;
+			remoteInfo = OCCommitBrowser;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -116,9 +134,6 @@
 		B97A0D8C2555631B00840157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97A0D912555631B00840157 /* CommitBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommitBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97A0D972555631B00840157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B97A0D9C2555631B00840157 /* CommitBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommitBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B97A0DA02555631B00840157 /* CommitBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitBrowserUITests.swift; sourceTree = "<group>"; };
-		B97A0DA22555631B00840157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97A0DD42555660B00840157 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		B97A0DDC255566AE00840157 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		B97A0DEA2555693C00840157 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -128,6 +143,37 @@
 		B97A0E02255573F900840157 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B97A0E03255573F900840157 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B984C4E42557486C00EF4C4F /* UIVIewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Extensions.swift"; sourceTree = "<group>"; };
+		B9AC4EB225603A39004D6D11 /* OCCommitBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCCommitBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AC4EB425603A39004D6D11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9AC4EB525603A39004D6D11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9AC4EB725603A39004D6D11 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B9AC4EB825603A39004D6D11 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B9AC4EC025603A3A004D6D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9AC4EC325603A3A004D6D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9AC4EC525603A3A004D6D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AC4EC625603A3A004D6D11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9AC4ECC25603A3A004D6D11 /* OCCommitBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCCommitBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AC4ED025603A3A004D6D11 /* OCCommitBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCommitBrowserTests.m; sourceTree = "<group>"; };
+		B9AC4ED225603A3A004D6D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AC4EDB25603A3B004D6D11 /* OCCommitBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCommitBrowserUITests.m; sourceTree = "<group>"; };
+		B9AC4EDD25603A3B004D6D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AC4F1E25603CAC004D6D11 /* OCCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCoordinator.h; sourceTree = "<group>"; };
+		B9AC4F1F25603CAC004D6D11 /* OCCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCoordinator.m; sourceTree = "<group>"; };
+		B9AC4F3B25604353004D6D11 /* CommitsRootsCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommitsRootsCoordinator.h; sourceTree = "<group>"; };
+		B9AC4F3C25604353004D6D11 /* CommitsRootsCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommitsRootsCoordinator.m; sourceTree = "<group>"; };
+		B9B5E7E225604B6B00F184E0 /* OCCommitsRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCommitsRootController.h; sourceTree = "<group>"; };
+		B9B5E7E325604B6B00F184E0 /* OCCommitsRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCommitsRootController.m; sourceTree = "<group>"; };
+		B9B5E7E425604B6B00F184E0 /* OCCommitsRootController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCCommitsRootController.xib; sourceTree = "<group>"; };
+		B9B5E7EC256051E400F184E0 /* OCCommitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCCommitCell.xib; sourceTree = "<group>"; };
+		B9B5E7ED256051E400F184E0 /* OCEmptyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCEmptyCell.xib; sourceTree = "<group>"; };
+		B9B5E7EE256051E400F184E0 /* OCFileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCFileCell.xib; sourceTree = "<group>"; };
+		B9B5E7F62560521C00F184E0 /* OCCommitCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCommitCell.h; sourceTree = "<group>"; };
+		B9B5E7F72560521C00F184E0 /* OCCommitCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCommitCell.m; sourceTree = "<group>"; };
+		B9B5E805256052CB00F184E0 /* OCCommit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCommit.h; sourceTree = "<group>"; };
+		B9B5E80A256053CE00F184E0 /* OCGithubCommit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCGithubCommit.h; sourceTree = "<group>"; };
+		B9B5E80B256053CE00F184E0 /* OCGithubCommit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCGithubCommit.m; sourceTree = "<group>"; };
+		B9B5E82D25605E9F00F184E0 /* OCNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCNetworking.h; sourceTree = "<group>"; };
+		B9B5E82E25605E9F00F184E0 /* OCNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCNetworking.m; sourceTree = "<group>"; };
 		B9B8372625588D2300E9D761 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		B9B8372B2558910B00E9D761 /* CommitAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitAppearance.swift; sourceTree = "<group>"; };
 		B9B83748255894A700E9D761 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
@@ -165,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B97A0DBC255563A400840157 /* Just in Frameworks */,
-				B97A0DB62555638E00840157 /* Nuke in Frameworks */,
+				B9FDCB9025610BA000877C85 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +222,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B97A0D992555631B00840157 /* Frameworks */ = {
+		B9AC4EAF25603A39004D6D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B96BCC2561128900989BA8 /* SDWebImage in Frameworks */,
+				B9AC4EF925603ACB004D6D11 /* AFNetworking in Frameworks */,
+				B9B5E8282560581400F184E0 /* Mantle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9AC4EC925603A3A004D6D11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,10 +298,14 @@
 			children = (
 				B97A0E03255573F900840157 /* LICENSE */,
 				B97A0E02255573F900840157 /* README.md */,
+				B9AC4EF625603AA8004D6D11 /* Common */,
 				B97A0D7D2555631900840157 /* CommitBrowser */,
 				B97A0D942555631B00840157 /* CommitBrowserTests */,
-				B97A0D9F2555631B00840157 /* CommitBrowserUITests */,
+				B9AC4EB325603A39004D6D11 /* OCCommitBrowser */,
+				B9AC4ECF25603A3A004D6D11 /* OCCommitBrowserTests */,
+				B9AC4EDA25603A3B004D6D11 /* OCCommitBrowserUITests */,
 				B97A0D7C2555631900840157 /* Products */,
+				B9B5E8112560570300F184E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -254,7 +314,8 @@
 			children = (
 				B97A0D7B2555631900840157 /* CommitBrowser.app */,
 				B97A0D912555631B00840157 /* CommitBrowserTests.xctest */,
-				B97A0D9C2555631B00840157 /* CommitBrowserUITests.xctest */,
+				B9AC4EB225603A39004D6D11 /* OCCommitBrowser.app */,
+				B9AC4ECC25603A3A004D6D11 /* OCCommitBrowserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,8 +323,8 @@
 		B97A0D7D2555631900840157 /* CommitBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				B9B8375525589C7800E9D761 /* Enumerators */,
 				B97A0DC62555641100840157 /* Application */,
+				B9B8375525589C7800E9D761 /* Enumerators */,
 				B984C4E32557485500EF4C4F /* Extensions */,
 				B97A0DD22555651F00840157 /* Helpers */,
 				B97A0DCC2555648600840157 /* Model */,
@@ -290,15 +351,6 @@
 			path = CommitBrowserTests;
 			sourceTree = "<group>";
 		};
-		B97A0D9F2555631B00840157 /* CommitBrowserUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B97A0DA02555631B00840157 /* CommitBrowserUITests.swift */,
-				B97A0DA22555631B00840157 /* Info.plist */,
-			);
-			path = CommitBrowserUITests;
-			sourceTree = "<group>";
-		};
 		B97A0DC62555641100840157 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,8 +364,6 @@
 			isa = PBXGroup;
 			children = (
 				B97A0D8C2555631B00840157 /* Info.plist */,
-				B97A0D872555631B00840157 /* Assets.xcassets */,
-				B97A0D892555631B00840157 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -395,6 +445,118 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		B9AC4EB325603A39004D6D11 /* OCCommitBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC4F0425603B6D004D6D11 /* Application */,
+				B9AC4F1D25603C86004D6D11 /* Model */,
+				B9AC4F0925603B7C004D6D11 /* Scenes */,
+				B9B5E7EB256051C100F184E0 /* Views */,
+				B9AC4EC025603A3A004D6D11 /* Assets.xcassets */,
+				B9AC4EC225603A3A004D6D11 /* LaunchScreen.storyboard */,
+				B9AC4EC525603A3A004D6D11 /* Info.plist */,
+				B9AC4EC625603A3A004D6D11 /* main.m */,
+			);
+			path = OCCommitBrowser;
+			sourceTree = "<group>";
+		};
+		B9AC4ECF25603A3A004D6D11 /* OCCommitBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC4ED025603A3A004D6D11 /* OCCommitBrowserTests.m */,
+				B9AC4ED225603A3A004D6D11 /* Info.plist */,
+			);
+			path = OCCommitBrowserTests;
+			sourceTree = "<group>";
+		};
+		B9AC4EDA25603A3B004D6D11 /* OCCommitBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC4EDB25603A3B004D6D11 /* OCCommitBrowserUITests.m */,
+				B9AC4EDD25603A3B004D6D11 /* Info.plist */,
+			);
+			path = OCCommitBrowserUITests;
+			sourceTree = "<group>";
+		};
+		B9AC4EF625603AA8004D6D11 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC4EFD25603B4F004D6D11 /* Resources */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B9AC4EFD25603B4F004D6D11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B97A0D872555631B00840157 /* Assets.xcassets */,
+				B97A0D892555631B00840157 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B9AC4F0425603B6D004D6D11 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC4EB425603A39004D6D11 /* AppDelegate.h */,
+				B9AC4EB525603A39004D6D11 /* AppDelegate.m */,
+				B9AC4EB725603A39004D6D11 /* SceneDelegate.h */,
+				B9AC4EB825603A39004D6D11 /* SceneDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B9AC4F0925603B7C004D6D11 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5E83425606B5200F184E0 /* CommitsRoot */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B9AC4F1D25603C86004D6D11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC4F1E25603CAC004D6D11 /* OCCoordinator.h */,
+				B9AC4F1F25603CAC004D6D11 /* OCCoordinator.m */,
+				B9B5E805256052CB00F184E0 /* OCCommit.h */,
+				B9B5E80A256053CE00F184E0 /* OCGithubCommit.h */,
+				B9B5E80B256053CE00F184E0 /* OCGithubCommit.m */,
+				B9B5E82D25605E9F00F184E0 /* OCNetworking.h */,
+				B9B5E82E25605E9F00F184E0 /* OCNetworking.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9B5E7EB256051C100F184E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDCB772561095A00877C85 /* OCCommit */,
+				B9B5E7ED256051E400F184E0 /* OCEmptyCell.xib */,
+				B9B5E7EE256051E400F184E0 /* OCFileCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9B5E8112560570300F184E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9B5E83425606B5200F184E0 /* CommitsRoot */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC4F3B25604353004D6D11 /* CommitsRootsCoordinator.h */,
+				B9AC4F3C25604353004D6D11 /* CommitsRootsCoordinator.m */,
+				B9B5E7E225604B6B00F184E0 /* OCCommitsRootController.h */,
+				B9B5E7E325604B6B00F184E0 /* OCCommitsRootController.m */,
+				B9B5E7E425604B6B00F184E0 /* OCCommitsRootController.xib */,
+			);
+			path = CommitsRoot;
+			sourceTree = "<group>";
+		};
 		B9B8375525589C7800E9D761 /* Enumerators */ = {
 			isa = PBXGroup;
 			children = (
@@ -451,6 +613,16 @@
 			path = PatchDetail;
 			sourceTree = "<group>";
 		};
+		B9FDCB772561095A00877C85 /* OCCommit */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5E7F62560521C00F184E0 /* OCCommitCell.h */,
+				B9B5E7F72560521C00F184E0 /* OCCommitCell.m */,
+				B9B5E7EC256051E400F184E0 /* OCCommitCell.xib */,
+			);
+			path = OCCommit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -468,8 +640,8 @@
 			);
 			name = CommitBrowser;
 			packageProductDependencies = (
-				B97A0DB52555638E00840157 /* Nuke */,
 				B97A0DBB255563A400840157 /* Just */,
+				B9FDCB8F25610BA000877C85 /* Nuke */,
 			);
 			productName = CommitBrowser;
 			productReference = B97A0D7B2555631900840157 /* CommitBrowser.app */;
@@ -493,23 +665,45 @@
 			productReference = B97A0D912555631B00840157 /* CommitBrowserTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B97A0D9B2555631B00840157 /* CommitBrowserUITests */ = {
+		B9AC4EB125603A39004D6D11 /* OCCommitBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B97A0DAB2555631B00840157 /* Build configuration list for PBXNativeTarget "CommitBrowserUITests" */;
+			buildConfigurationList = B9AC4EDE25603A3B004D6D11 /* Build configuration list for PBXNativeTarget "OCCommitBrowser" */;
 			buildPhases = (
-				B97A0D982555631B00840157 /* Sources */,
-				B97A0D992555631B00840157 /* Frameworks */,
-				B97A0D9A2555631B00840157 /* Resources */,
+				B9AC4EAE25603A39004D6D11 /* Sources */,
+				B9AC4EAF25603A39004D6D11 /* Frameworks */,
+				B9AC4EB025603A39004D6D11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B97A0D9E2555631B00840157 /* PBXTargetDependency */,
 			);
-			name = CommitBrowserUITests;
-			productName = CommitBrowserUITests;
-			productReference = B97A0D9C2555631B00840157 /* CommitBrowserUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = OCCommitBrowser;
+			packageProductDependencies = (
+				B9AC4EF825603ACB004D6D11 /* AFNetworking */,
+				B9B5E8272560581400F184E0 /* Mantle */,
+				B9B96BCB2561128900989BA8 /* SDWebImage */,
+			);
+			productName = OCCommitBrowser;
+			productReference = B9AC4EB225603A39004D6D11 /* OCCommitBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9AC4ECB25603A3A004D6D11 /* OCCommitBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9AC4EE125603A3B004D6D11 /* Build configuration list for PBXNativeTarget "OCCommitBrowserTests" */;
+			buildPhases = (
+				B9AC4EC825603A3A004D6D11 /* Sources */,
+				B9AC4EC925603A3A004D6D11 /* Frameworks */,
+				B9AC4ECA25603A3A004D6D11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9AC4ECE25603A3A004D6D11 /* PBXTargetDependency */,
+			);
+			name = OCCommitBrowserTests;
+			productName = OCCommitBrowserTests;
+			productReference = B9AC4ECC25603A3A004D6D11 /* OCCommitBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -527,9 +721,12 @@
 						CreatedOnToolsVersion = 12.1;
 						TestTargetID = B97A0D7A2555631900840157;
 					};
-					B97A0D9B2555631B00840157 = {
-						CreatedOnToolsVersion = 12.1;
-						TestTargetID = B97A0D7A2555631900840157;
+					B9AC4EB125603A39004D6D11 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B9AC4ECB25603A3A004D6D11 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B9AC4EB125603A39004D6D11;
 					};
 				};
 			};
@@ -543,8 +740,11 @@
 			);
 			mainGroup = B97A0D722555631900840157;
 			packageReferences = (
-				B97A0DB42555638E00840157 /* XCRemoteSwiftPackageReference "Nuke" */,
 				B97A0DBA255563A400840157 /* XCRemoteSwiftPackageReference "Just" */,
+				B9AC4EF725603ACB004D6D11 /* XCRemoteSwiftPackageReference "AFNetworking" */,
+				B9B5E8262560581400F184E0 /* XCRemoteSwiftPackageReference "Mantle" */,
+				B9FDCB8E25610BA000877C85 /* XCRemoteSwiftPackageReference "Nuke" */,
+				B9B96BCA2561128900989BA8 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = B97A0D7C2555631900840157 /* Products */;
 			projectDirPath = "";
@@ -552,7 +752,8 @@
 			targets = (
 				B97A0D7A2555631900840157 /* CommitBrowser */,
 				B97A0D902555631B00840157 /* CommitBrowserTests */,
-				B97A0D9B2555631B00840157 /* CommitBrowserUITests */,
+				B9AC4EB125603A39004D6D11 /* OCCommitBrowser */,
+				B9AC4ECB25603A3A004D6D11 /* OCCommitBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -563,7 +764,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B97A0DF125556E2C00840157 /* CommitsRoot.storyboard in Resources */,
-				B97A0D8B2555631B00840157 /* LaunchScreen.storyboard in Resources */,
 				B9B837972559457100E9D761 /* CommitDetail.storyboard in Resources */,
 				B932D4222559500C0022BBF3 /* FileCell.xib in Resources */,
 				B97A0E04255573F900840157 /* README.md in Resources */,
@@ -589,7 +789,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B97A0D9A2555631B00840157 /* Resources */ = {
+		B9AC4EB025603A39004D6D11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AC4EC425603A3A004D6D11 /* LaunchScreen.storyboard in Resources */,
+				B9AC4EC125603A3A004D6D11 /* Assets.xcassets in Resources */,
+				B9B5E7F1256051E400F184E0 /* OCFileCell.xib in Resources */,
+				B9B5E7E625604B6B00F184E0 /* OCCommitsRootController.xib in Resources */,
+				B9B5E7F0256051E400F184E0 /* OCEmptyCell.xib in Resources */,
+				B9B5E7EF256051E400F184E0 /* OCCommitCell.xib in Resources */,
+				B9AC4EFE25603B57004D6D11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9AC4ECA25603A3A004D6D11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -656,11 +870,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B97A0D982555631B00840157 /* Sources */ = {
+		B9AC4EAE25603A39004D6D11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97A0DA12555631B00840157 /* CommitBrowserUITests.swift in Sources */,
+				B9AC4EB625603A39004D6D11 /* AppDelegate.m in Sources */,
+				B9B5E80C256053CE00F184E0 /* OCGithubCommit.m in Sources */,
+				B9AC4F3D25604353004D6D11 /* CommitsRootsCoordinator.m in Sources */,
+				B9AC4EC725603A3A004D6D11 /* main.m in Sources */,
+				B9AC4F2025603CAC004D6D11 /* OCCoordinator.m in Sources */,
+				B9B5E7E525604B6B00F184E0 /* OCCommitsRootController.m in Sources */,
+				B9B5E82F25605E9F00F184E0 /* OCNetworking.m in Sources */,
+				B9AC4EB925603A39004D6D11 /* SceneDelegate.m in Sources */,
+				B9B5E7F82560521C00F184E0 /* OCCommitCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9AC4EC825603A3A004D6D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AC4ED125603A3A004D6D11 /* OCCommitBrowserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,10 +902,10 @@
 			target = B97A0D7A2555631900840157 /* CommitBrowser */;
 			targetProxy = B97A0D922555631B00840157 /* PBXContainerItemProxy */;
 		};
-		B97A0D9E2555631B00840157 /* PBXTargetDependency */ = {
+		B9AC4ECE25603A3A004D6D11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B97A0D7A2555631900840157 /* CommitBrowser */;
-			targetProxy = B97A0D9D2555631B00840157 /* PBXContainerItemProxy */;
+			target = B9AC4EB125603A39004D6D11 /* OCCommitBrowser */;
+			targetProxy = B9AC4ECD25603A3A004D6D11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -684,6 +914,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				B97A0D8A2555631B00840157 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B9AC4EC225603A3A004D6D11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9AC4EC325603A3A004D6D11 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -891,43 +1129,81 @@
 			};
 			name = Release;
 		};
-		B97A0DAC2555631B00840157 /* Debug */ = {
+		B9AC4EDF25603A3B004D6D11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MM68ANJS23;
-				INFOPLIST_FILE = CommitBrowserUITests/Info.plist;
+				INFOPLIST_FILE = OCCommitBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.CommitBrowserUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.OCCommitBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CommitBrowser;
 			};
 			name = Debug;
 		};
-		B97A0DAD2555631B00840157 /* Release */ = {
+		B9AC4EE025603A3B004D6D11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MM68ANJS23;
-				INFOPLIST_FILE = CommitBrowserUITests/Info.plist;
+				INFOPLIST_FILE = OCCommitBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.OCCommitBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9AC4EE225603A3B004D6D11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				INFOPLIST_FILE = OCCommitBrowserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.CommitBrowserUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.OCCommitBrowserTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CommitBrowser;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCCommitBrowser.app/OCCommitBrowser";
+			};
+			name = Debug;
+		};
+		B9AC4EE325603A3B004D6D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				INFOPLIST_FILE = OCCommitBrowserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhomes.OCCommitBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCCommitBrowser.app/OCCommitBrowser";
 			};
 			name = Release;
 		};
@@ -961,11 +1237,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B97A0DAB2555631B00840157 /* Build configuration list for PBXNativeTarget "CommitBrowserUITests" */ = {
+		B9AC4EDE25603A3B004D6D11 /* Build configuration list for PBXNativeTarget "OCCommitBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B97A0DAC2555631B00840157 /* Debug */,
-				B97A0DAD2555631B00840157 /* Release */,
+				B9AC4EDF25603A3B004D6D11 /* Debug */,
+				B9AC4EE025603A3B004D6D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9AC4EE125603A3B004D6D11 /* Build configuration list for PBXNativeTarget "OCCommitBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9AC4EE225603A3B004D6D11 /* Debug */,
+				B9AC4EE325603A3B004D6D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -973,14 +1258,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B97A0DB42555638E00840157 /* XCRemoteSwiftPackageReference "Nuke" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kean/Nuke";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.1.2;
-			};
-		};
 		B97A0DBA255563A400840157 /* XCRemoteSwiftPackageReference "Just" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/dduan/Just";
@@ -989,18 +1266,65 @@
 				minimumVersion = 0.8.0;
 			};
 		};
+		B9AC4EF725603ACB004D6D11 /* XCRemoteSwiftPackageReference "AFNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AFNetworking/AFNetworking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		B9B5E8262560581400F184E0 /* XCRemoteSwiftPackageReference "Mantle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mantle/Mantle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.6;
+			};
+		};
+		B9B96BCA2561128900989BA8 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.5;
+			};
+		};
+		B9FDCB8E25610BA000877C85 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B97A0DB52555638E00840157 /* Nuke */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B97A0DB42555638E00840157 /* XCRemoteSwiftPackageReference "Nuke" */;
-			productName = Nuke;
-		};
 		B97A0DBB255563A400840157 /* Just */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B97A0DBA255563A400840157 /* XCRemoteSwiftPackageReference "Just" */;
 			productName = Just;
+		};
+		B9AC4EF825603ACB004D6D11 /* AFNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9AC4EF725603ACB004D6D11 /* XCRemoteSwiftPackageReference "AFNetworking" */;
+			productName = AFNetworking;
+		};
+		B9B5E8272560581400F184E0 /* Mantle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9B5E8262560581400F184E0 /* XCRemoteSwiftPackageReference "Mantle" */;
+			productName = Mantle;
+		};
+		B9B96BCB2561128900989BA8 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9B96BCA2561128900989BA8 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B9FDCB8F25610BA000877C85 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9FDCB8E25610BA000877C85 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
