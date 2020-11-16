@@ -5,20 +5,21 @@
 //  Created by dhomes on 11/14/20.
 //
 
-#import "OCNetworking.h"
+#import "OCGitHubNetworking.h"
 #import "AFNetworking.h"
 #import "Mantle.h"
 
-@implementation OCNetworking
+@implementation OCGitHubNetworking
 
--(void)fetchCommits:(CommitBlock)completion {
-    NSURL *url = [NSURL URLWithString:@"https://api.github.com/repos/dhomes/commitbrowser/commits"];
+-(void)fetchCommitsFor:(OCRepository *_Nonnull)repository query:(OCQuery * _Nullable)query completion: (CommitBlock _Nullable )completion {
+    
+    NSURL *url = [NSURL URLWithString:[repository baseUrlString]];
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     dispatch_queue_t mainQueue = dispatch_get_main_queue();
     
-    [manager GET:url.absoluteString parameters:nil headers:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager GET:url.absoluteString parameters:[query queryParameters] headers:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSError *error = nil;
         NSArray *commits = [MTLJSONAdapter modelsOfClass:OCGithubCommit.class fromJSONArray:responseObject error:&error];
         if (error != nil) {
@@ -36,5 +37,8 @@
             completion(nil,error);
         });
     }];
+    
+    
+    
 }
 @end

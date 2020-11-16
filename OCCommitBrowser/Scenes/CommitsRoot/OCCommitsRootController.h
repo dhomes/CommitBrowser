@@ -6,11 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
+#import "OCCommitViewModel.h"
 @interface OCCommitsRootController : UIViewController
-
+@property(nonatomic,strong) id<OCCommitsViewModel> model;
 @end
-
-NS_ASSUME_NONNULL_END
+ 

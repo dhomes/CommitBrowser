@@ -38,7 +38,9 @@ class GitHubCommitsRootViewModel<T: NetworkService> : CommitsRootViewModel {
     }
     
     func fetch(from direction : FetchDirection, completion : ((Error?) -> ())?) {
+        
         let date : Date? = direction == .top ? nil : commits.value.map { $0.date }.min()?.addingTimeInterval(-0.01)
+        
         hasMore = direction == .top ? true : hasMore
         
         let pageSize = self.pageSize

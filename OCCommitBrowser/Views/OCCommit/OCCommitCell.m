@@ -7,6 +7,7 @@
 
 #import "OCCommitCell.h"
 #import <SDWebImage/SDWebImage.h>
+#import "OCCommitAppearance.h"
 
 @interface OCCommitCell()
 @property (weak, nonatomic) IBOutlet UILabel *commitMessage;
@@ -41,8 +42,10 @@
     if (!commit) {
         return;
     }
+    OCCommitAppearance *appearance = [OCCommitAppearance new];
     _commit = commit;
     _commitMessage.text = commit.message;
+    _commitMessage.textColor = [appearance titleColor];
     _commitHash.text = commit.commitHash;
     _author.text = commit.authorName;
     _email.text = commit.authorEmail;

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91488B125611C8E0061FE43 /* OCGithubCommitsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B91488B025611C8E0061FE43 /* OCGithubCommitsViewModel.m */; };
+		B91488D72561269F0061FE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D892555631B00840157 /* LaunchScreen.storyboard */; };
+		B91488DC2561269F0061FE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97A0D892555631B00840157 /* LaunchScreen.storyboard */; };
 		B932D4212559500C0022BBF3 /* FileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932D41F2559500C0022BBF3 /* FileCell.swift */; };
 		B932D4222559500C0022BBF3 /* FileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B932D4202559500C0022BBF3 /* FileCell.xib */; };
 		B937EB24255700FC00DC6948 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EB23255700FC00DC6948 /* Repository.swift */; };
@@ -40,8 +43,6 @@
 		B984C4E52557486C00EF4C4F /* UIVIewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B984C4E42557486C00EF4C4F /* UIVIewController+Extensions.swift */; };
 		B9AC4EB625603A39004D6D11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4EB525603A39004D6D11 /* AppDelegate.m */; };
 		B9AC4EB925603A39004D6D11 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4EB825603A39004D6D11 /* SceneDelegate.m */; };
-		B9AC4EC125603A3A004D6D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AC4EC025603A3A004D6D11 /* Assets.xcassets */; };
-		B9AC4EC425603A3A004D6D11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AC4EC225603A3A004D6D11 /* LaunchScreen.storyboard */; };
 		B9AC4EC725603A3A004D6D11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4EC625603A3A004D6D11 /* main.m */; };
 		B9AC4ED125603A3A004D6D11 /* OCCommitBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4ED025603A3A004D6D11 /* OCCommitBrowserTests.m */; };
 		B9AC4EF925603ACB004D6D11 /* AFNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B9AC4EF825603ACB004D6D11 /* AFNetworking */; };
@@ -56,7 +57,7 @@
 		B9B5E7F82560521C00F184E0 /* OCCommitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E7F72560521C00F184E0 /* OCCommitCell.m */; };
 		B9B5E80C256053CE00F184E0 /* OCGithubCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E80B256053CE00F184E0 /* OCGithubCommit.m */; };
 		B9B5E8282560581400F184E0 /* Mantle in Frameworks */ = {isa = PBXBuildFile; productRef = B9B5E8272560581400F184E0 /* Mantle */; };
-		B9B5E82F25605E9F00F184E0 /* OCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E82E25605E9F00F184E0 /* OCNetworking.m */; };
+		B9B5E82F25605E9F00F184E0 /* OCGitHubNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B5E82E25605E9F00F184E0 /* OCGitHubNetworking.m */; };
 		B9B8372725588D2300E9D761 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8372625588D2300E9D761 /* Appearance.swift */; };
 		B9B8372C2558910B00E9D761 /* CommitAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B8372B2558910B00E9D761 /* CommitAppearance.swift */; };
 		B9B83749255894A700E9D761 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B83748255894A700E9D761 /* UIFont+Extensions.swift */; };
@@ -73,6 +74,9 @@
 		B9B837A72559467400E9D761 /* CommitDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B837A62559467400E9D761 /* CommitDetailsViewModel.swift */; };
 		B9B837AC2559474C00E9D761 /* GitHubCommitDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B837AB2559474C00E9D761 /* GitHubCommitDetailsViewModel.swift */; };
 		B9B96BCC2561128900989BA8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B9B96BCB2561128900989BA8 /* SDWebImage */; };
+		B9B96BD4256114A500989BA8 /* OCRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B96BD3256114A500989BA8 /* OCRepository.m */; };
+		B9B96BDB2561167400989BA8 /* OCQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B96BDA2561167400989BA8 /* OCQuery.m */; };
+		B9BD17A825622F9F003F782D /* OCCommitAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BD17A725622F9F003F782D /* OCCommitAppearance.m */; };
 		B9CF88AC255710E5009416B8 /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF88AA255710E5009416B8 /* EmptyCell.swift */; };
 		B9CF88AD255710E5009416B8 /* EmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CF88AB255710E5009416B8 /* EmptyCell.xib */; };
 		B9CF88B3255712FC009416B8 /* CommitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF88B1255712FC009416B8 /* CommitCell.swift */; };
@@ -108,6 +112,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B91488AF25611C8E0061FE43 /* OCGithubCommitsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCGithubCommitsViewModel.h; sourceTree = "<group>"; };
+		B91488B025611C8E0061FE43 /* OCGithubCommitsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCGithubCommitsViewModel.m; sourceTree = "<group>"; };
+		B91488BE256121550061FE43 /* OCNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCNetworking.h; sourceTree = "<group>"; };
+		B91488C3256125340061FE43 /* OCCommitViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCommitViewModel.h; sourceTree = "<group>"; };
+		B91488E1256126CF0061FE43 /* OCFetchDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCFetchDirection.h; sourceTree = "<group>"; };
 		B932D41F2559500C0022BBF3 /* FileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCell.swift; sourceTree = "<group>"; };
 		B932D4202559500C0022BBF3 /* FileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileCell.xib; sourceTree = "<group>"; };
 		B937EB23255700FC00DC6948 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
@@ -148,15 +157,11 @@
 		B9AC4EB525603A39004D6D11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B9AC4EB725603A39004D6D11 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		B9AC4EB825603A39004D6D11 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B9AC4EC025603A3A004D6D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9AC4EC325603A3A004D6D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9AC4EC525603A3A004D6D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9AC4EC625603A3A004D6D11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9AC4ECC25603A3A004D6D11 /* OCCommitBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCCommitBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AC4ED025603A3A004D6D11 /* OCCommitBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCommitBrowserTests.m; sourceTree = "<group>"; };
 		B9AC4ED225603A3A004D6D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9AC4EDB25603A3B004D6D11 /* OCCommitBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCommitBrowserUITests.m; sourceTree = "<group>"; };
-		B9AC4EDD25603A3B004D6D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9AC4F1E25603CAC004D6D11 /* OCCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCoordinator.h; sourceTree = "<group>"; };
 		B9AC4F1F25603CAC004D6D11 /* OCCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCoordinator.m; sourceTree = "<group>"; };
 		B9AC4F3B25604353004D6D11 /* CommitsRootsCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommitsRootsCoordinator.h; sourceTree = "<group>"; };
@@ -172,8 +177,8 @@
 		B9B5E805256052CB00F184E0 /* OCCommit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCommit.h; sourceTree = "<group>"; };
 		B9B5E80A256053CE00F184E0 /* OCGithubCommit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCGithubCommit.h; sourceTree = "<group>"; };
 		B9B5E80B256053CE00F184E0 /* OCGithubCommit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCGithubCommit.m; sourceTree = "<group>"; };
-		B9B5E82D25605E9F00F184E0 /* OCNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCNetworking.h; sourceTree = "<group>"; };
-		B9B5E82E25605E9F00F184E0 /* OCNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCNetworking.m; sourceTree = "<group>"; };
+		B9B5E82D25605E9F00F184E0 /* OCGitHubNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCGitHubNetworking.h; sourceTree = "<group>"; };
+		B9B5E82E25605E9F00F184E0 /* OCGitHubNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCGitHubNetworking.m; sourceTree = "<group>"; };
 		B9B8372625588D2300E9D761 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		B9B8372B2558910B00E9D761 /* CommitAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitAppearance.swift; sourceTree = "<group>"; };
 		B9B83748255894A700E9D761 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
@@ -189,6 +194,13 @@
 		B9B837A02559461600E9D761 /* CommitDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitDetailViewController.swift; sourceTree = "<group>"; };
 		B9B837A62559467400E9D761 /* CommitDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitDetailsViewModel.swift; sourceTree = "<group>"; };
 		B9B837AB2559474C00E9D761 /* GitHubCommitDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubCommitDetailsViewModel.swift; sourceTree = "<group>"; };
+		B9B96BD2256114A500989BA8 /* OCRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRepository.h; sourceTree = "<group>"; };
+		B9B96BD3256114A500989BA8 /* OCRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRepository.m; sourceTree = "<group>"; };
+		B9B96BD92561167400989BA8 /* OCQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCQuery.h; sourceTree = "<group>"; };
+		B9B96BDA2561167400989BA8 /* OCQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCQuery.m; sourceTree = "<group>"; };
+		B9BD17A125622DFA003F782D /* OCAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCAppearance.h; sourceTree = "<group>"; };
+		B9BD17A625622F9F003F782D /* OCCommitAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCommitAppearance.h; sourceTree = "<group>"; };
+		B9BD17A725622F9F003F782D /* OCCommitAppearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCommitAppearance.m; sourceTree = "<group>"; };
 		B9CF88AA255710E5009416B8 /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
 		B9CF88AB255710E5009416B8 /* EmptyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCell.xib; sourceTree = "<group>"; };
 		B9CF88B1255712FC009416B8 /* CommitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitCell.swift; sourceTree = "<group>"; };
@@ -242,6 +254,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B91488AE25611C5E0061FE43 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B91488C3256125340061FE43 /* OCCommitViewModel.h */,
+				B91488AF25611C8E0061FE43 /* OCGithubCommitsViewModel.h */,
+				B91488B025611C8E0061FE43 /* OCGithubCommitsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B91488D22561267C0061FE43 /* Enumerators */ = {
+			isa = PBXGroup;
+			children = (
+				B91488E1256126CF0061FE43 /* OCFetchDirection.h */,
+			);
+			path = Enumerators;
+			sourceTree = "<group>";
+		};
+		B91488E6256127250061FE43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC4EC625603A3A004D6D11 /* main.m */,
+				B9AC4EC525603A3A004D6D11 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B96806E52555B9E500809CD7 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,7 +342,6 @@
 				B97A0D942555631B00840157 /* CommitBrowserTests */,
 				B9AC4EB325603A39004D6D11 /* OCCommitBrowser */,
 				B9AC4ECF25603A3A004D6D11 /* OCCommitBrowserTests */,
-				B9AC4EDA25603A3B004D6D11 /* OCCommitBrowserUITests */,
 				B97A0D7C2555631900840157 /* Products */,
 				B9B5E8112560570300F184E0 /* Frameworks */,
 			);
@@ -449,13 +487,14 @@
 			isa = PBXGroup;
 			children = (
 				B9AC4F0425603B6D004D6D11 /* Application */,
+				B91488D22561267C0061FE43 /* Enumerators */,
+				B9BD17A025622DE1003F782D /* Helpers */,
 				B9AC4F1D25603C86004D6D11 /* Model */,
+				B9B96BD12561148300989BA8 /* Networking */,
+				B91488E6256127250061FE43 /* Resources */,
 				B9AC4F0925603B7C004D6D11 /* Scenes */,
+				B91488AE25611C5E0061FE43 /* ViewModel */,
 				B9B5E7EB256051C100F184E0 /* Views */,
-				B9AC4EC025603A3A004D6D11 /* Assets.xcassets */,
-				B9AC4EC225603A3A004D6D11 /* LaunchScreen.storyboard */,
-				B9AC4EC525603A3A004D6D11 /* Info.plist */,
-				B9AC4EC625603A3A004D6D11 /* main.m */,
 			);
 			path = OCCommitBrowser;
 			sourceTree = "<group>";
@@ -467,15 +506,6 @@
 				B9AC4ED225603A3A004D6D11 /* Info.plist */,
 			);
 			path = OCCommitBrowserTests;
-			sourceTree = "<group>";
-		};
-		B9AC4EDA25603A3B004D6D11 /* OCCommitBrowserUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B9AC4EDB25603A3B004D6D11 /* OCCommitBrowserUITests.m */,
-				B9AC4EDD25603A3B004D6D11 /* Info.plist */,
-			);
-			path = OCCommitBrowserUITests;
 			sourceTree = "<group>";
 		};
 		B9AC4EF625603AA8004D6D11 /* Common */ = {
@@ -522,8 +552,6 @@
 				B9B5E805256052CB00F184E0 /* OCCommit.h */,
 				B9B5E80A256053CE00F184E0 /* OCGithubCommit.h */,
 				B9B5E80B256053CE00F184E0 /* OCGithubCommit.m */,
-				B9B5E82D25605E9F00F184E0 /* OCNetworking.h */,
-				B9B5E82E25605E9F00F184E0 /* OCNetworking.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -601,6 +629,30 @@
 				B9B837AB2559474C00E9D761 /* GitHubCommitDetailsViewModel.swift */,
 			);
 			path = CommitsDetails;
+			sourceTree = "<group>";
+		};
+		B9B96BD12561148300989BA8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B91488BE256121550061FE43 /* OCNetworking.h */,
+				B9B5E82D25605E9F00F184E0 /* OCGitHubNetworking.h */,
+				B9B5E82E25605E9F00F184E0 /* OCGitHubNetworking.m */,
+				B9B96BD2256114A500989BA8 /* OCRepository.h */,
+				B9B96BD3256114A500989BA8 /* OCRepository.m */,
+				B9B96BD92561167400989BA8 /* OCQuery.h */,
+				B9B96BDA2561167400989BA8 /* OCQuery.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B9BD17A025622DE1003F782D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B9BD17A125622DFA003F782D /* OCAppearance.h */,
+				B9BD17A625622F9F003F782D /* OCCommitAppearance.h */,
+				B9BD17A725622F9F003F782D /* OCCommitAppearance.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		B9F0EA612559610000AAFDBD /* PatchDetail */ = {
@@ -766,6 +818,7 @@
 				B97A0DF125556E2C00840157 /* CommitsRoot.storyboard in Resources */,
 				B9B837972559457100E9D761 /* CommitDetail.storyboard in Resources */,
 				B932D4222559500C0022BBF3 /* FileCell.xib in Resources */,
+				B91488DC2561269F0061FE43 /* LaunchScreen.storyboard in Resources */,
 				B97A0E04255573F900840157 /* README.md in Resources */,
 				B97A0D882555631B00840157 /* Assets.xcassets in Resources */,
 				B9F0EA632559611C00AAFDBD /* PatchDetail.storyboard in Resources */,
@@ -793,11 +846,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9AC4EC425603A3A004D6D11 /* LaunchScreen.storyboard in Resources */,
-				B9AC4EC125603A3A004D6D11 /* Assets.xcassets in Resources */,
 				B9B5E7F1256051E400F184E0 /* OCFileCell.xib in Resources */,
 				B9B5E7E625604B6B00F184E0 /* OCCommitsRootController.xib in Resources */,
 				B9B5E7F0256051E400F184E0 /* OCEmptyCell.xib in Resources */,
+				B91488D72561269F0061FE43 /* LaunchScreen.storyboard in Resources */,
 				B9B5E7EF256051E400F184E0 /* OCCommitCell.xib in Resources */,
 				B9AC4EFE25603B57004D6D11 /* Assets.xcassets in Resources */,
 			);
@@ -879,9 +931,13 @@
 				B9AC4F3D25604353004D6D11 /* CommitsRootsCoordinator.m in Sources */,
 				B9AC4EC725603A3A004D6D11 /* main.m in Sources */,
 				B9AC4F2025603CAC004D6D11 /* OCCoordinator.m in Sources */,
+				B9B96BD4256114A500989BA8 /* OCRepository.m in Sources */,
+				B91488B125611C8E0061FE43 /* OCGithubCommitsViewModel.m in Sources */,
 				B9B5E7E525604B6B00F184E0 /* OCCommitsRootController.m in Sources */,
-				B9B5E82F25605E9F00F184E0 /* OCNetworking.m in Sources */,
+				B9B5E82F25605E9F00F184E0 /* OCGitHubNetworking.m in Sources */,
+				B9BD17A825622F9F003F782D /* OCCommitAppearance.m in Sources */,
 				B9AC4EB925603A39004D6D11 /* SceneDelegate.m in Sources */,
+				B9B96BDB2561167400989BA8 /* OCQuery.m in Sources */,
 				B9B5E7F82560521C00F184E0 /* OCCommitCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -914,14 +970,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				B97A0D8A2555631B00840157 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B9AC4EC225603A3A004D6D11 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9AC4EC325603A3A004D6D11 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1136,7 +1184,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MM68ANJS23;
-				INFOPLIST_FILE = OCCommitBrowser/Info.plist;
+				INFOPLIST_FILE = OCCommitBrowser/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1155,7 +1203,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MM68ANJS23;
-				INFOPLIST_FILE = OCCommitBrowser/Info.plist;
+				INFOPLIST_FILE = OCCommitBrowser/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
